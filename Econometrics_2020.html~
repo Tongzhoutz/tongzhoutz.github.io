@@ -71,9 +71,10 @@
 	    
 	      <h5>Past Exams</h5>
 
+          <div style="text-align:center">
 <table border="1"
     cellpadding="10"
-    align= "">
+    align= "center">
     <tr> 
 <td> <b>Exam</b></td>
 <td><b>Solutions</b></td>
@@ -87,6 +88,8 @@
   <td>Row</td>
 </tr>
 </table>
+    
+</div>
 
       <ul>
           <li>Midterms: </li>
