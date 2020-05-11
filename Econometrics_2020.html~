@@ -72,9 +72,12 @@
 	      <h5>Past Exams</h5>
 
 <table border="1">
+    <tr> 
+<td> <b>Exam</b></td>
+    </tr>
 <tr>
   <td><a href="course/Econometrics_2020/midterm_2020Spring.pdf">midterm_2020</a></td>
-  <td><a href="course/Econometrics_2020/midterm_sol.pdf">midterm</a> </td>
+  <td><a href="course/Econometrics_2020/midterm.sol.pdf">midterm</a> </td>
 </tr>   
 <tr>
   <td><a href="course/Econometrics_2020/Final_2020Spring.pdf">final_2020</a></td>
