@@ -70,6 +70,18 @@
       </ul>
 	    
 	      <h5>Past Exams</h5>
+
+<table border="1">
+<tr>
+  <td><a href="course/Econometrics_2020/midterm_2020Spring.pdf">midterm_2020</a></td>
+  <td><a href="course/Econometrics_2020/midterm_sol.pdf">midterm</a>/td>
+</tr>   
+<tr>
+  <td><a href="course/Econometrics_2020/Final_2020Spring.pdf">final</a></td>
+  <td>Row</td>
+</tr>
+</table>
+
       <ul>
           <li>Midterms: </li>
           <ul>
@@ -87,7 +99,7 @@
 		
 <h5>Review of Exams</h5>	
 <ul>
-   Review of Midterm: <a href="course/Econometrics_2020/Review_Midterm.pdf" target="_blank">Anchor Text</a> 
+   Review of Midterm: <a href="course/Econometrics_2020/Review_Midterm.pdf">Review_mid</a> 
 </ul>
       <h5> Accommodations </h5>
 Please refer to university policies regarding
