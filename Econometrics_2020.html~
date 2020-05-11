@@ -71,11 +71,10 @@
 	    
 	      <h5>Past Exams</h5>
 
-          <div style="text-align:center">
 <table border="1">
     <tr> 
 <th align="right">Exam</th>
-<th>Solutions</th>
+<th aligh= "left">Solutions</th>
     </tr>
 <tr>
   <td align="center"><a href="course/Econometrics_2020/midterm_2020Spring.pdf">midterm_2020</a></td>
@@ -85,7 +84,7 @@
   <td><a href="course/Econometrics_2020/Final_2020Spring.pdf">final_2020</a></td>
   <td>Row</td>
 </tr>
-</table></div>
+</table>
 
       <ul>
           <li>Midterms: </li>
