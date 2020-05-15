@@ -84,7 +84,7 @@
 				</ul>
 				<p>
 					<smaller>
-						&copy;James Hong <script>document.write(new Date().getFullYear());</script>.<br>All rights reserved.
+						&copy;Tong Zhou <script>document.write(new Date().getFullYear());</script>.<br>All rights reserved.
 					</smaller>
 				</p>
 				<p>
@@ -552,8 +552,8 @@
 									<i class="icon-world"></i>
 								</span>
 								<div class="desc">
-									<h3>CS 244: Advanced Topics in Computer Networking</h3>
-									<p>Spring 2017</p>
+									<h3>AS 180.633: Econometrics <a href="Econometrics_2020.html">Econometrics_2020_Spring</a></h3>
+									<p>Spring 2020</p>
 								</div>
 							</div>
 						</div>
