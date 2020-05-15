@@ -11,12 +11,12 @@
 
   <!-- Facebook and Twitter integration -->
 	<meta property="og:title" content="Tong Zhou | Economics"/>
-	<meta property="og:image" content="https://jhong93.github.io/photos/china/shanghai.jpg"/>
+	<meta property="og:image" content="https://jhong93.github.io/photos/sf-bay-area/DSC02433.jpg"/>
 	<meta property="og:url" content="https://jhong93.github.io/"/>
 	<meta property="og:site_name" content="James Hong | Computer Scientist"/>
 	<meta property="og:description" content="My personal webpage"/>
 	<meta name="twitter:title" content="James Hong | Computer Scientist" />
-	<meta name="twitter:image" content="https://jhong93.github.io/photos/china/shanghai.jpg" />
+	<meta name="twitter:image" content="https://jhong93.github.io/photos/sf-bay-area/shanghai.jpg" />
 	<meta name="twitter:url" content="https://jhong93.github.io/" />
 	<meta name="twitter:card" content="summary" />
 
@@ -101,7 +101,7 @@
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
 						
-				   	<li style="background-image: url(photos/sf-bay-area/DSC02433.jpeg);">
+				   	<li style="background-image: url(photos/sf-bay-area/DSC02433.jpg);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -962,7 +962,7 @@
 					dynamic: true, html: true,
 					dynamicEl: [
 						
-						{src: 'photos/china/shanghai.jpg', thumb: 'photos/china/shanghai.jpg', subHtml: "<h4>San Francisco</h4><p>Golden Gate Bridge from Marshall's Beach</p>"},
+						{src: 'photos/sf-bay-area/DSC02433.jpg', thumb: 'photos/sf-bay-area/DSC02433.jpg', subHtml: "<h4>San Francisco</h4><p>Golden Gate Bridge from Marshall's Beach</p>"},
 						
 						{src: 'photos/sf-bay-area/DSC02134.jpg', thumb: 'photos/sf-bay-area/thumb-DSC02134.jpg', subHtml: "<h4>San Francisco</h4><p>Golden Gate Bridge from the Presidio</p>"},
 						
