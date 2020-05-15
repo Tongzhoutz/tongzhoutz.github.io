@@ -7,10 +7,14 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
@@ -78,7 +82,7 @@ figure {
   float: left;
   width: 300px;
   position: fixed;
-  overflow-y: scroll;
+  overflow-y: hidden;
   z-index: 1001;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
@@ -194,7 +198,7 @@ figure {
     padding: 0 20px;
     width: 100%; }
     @media screen and (max-width: 768px) {
-      #colorlib-aside .colorlib-footer {
+    #colorlib-aside .colorlib-footer {
         position: relative;
         bottom: 0; } }
     #colorlib-aside .colorlib-footer span {
@@ -208,7 +212,7 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
+          color: rgba(0, 0, 0, 0.5);
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
@@ -232,7 +236,7 @@ figure {
 
 #colorlib-hero {
   min-height: 500px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+  background: #fff url(../img/loading.gif) no-repeat center center;
   width: 100%;
   float: left;
   margin-bottom: 10em;
@@ -941,7 +945,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    background: rgba(44, 152, 240, 0.5);
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -984,9 +988,8 @@ body.offcanvas {
       transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
       -webkit-transform: translate3d(0, -15px, 0);
       transform: translate3d(0, -15px, 0);
-      margin-bottom: 15px; }
-      .project .desc h3 a {
-        color: #fff; }
+      margin-bottom: 15px;
+      color: #fff; }
     .project .desc span {
       display: block;
       color: rgba(255, 255, 255, 0.7);
@@ -1000,7 +1003,7 @@ body.offcanvas {
       -webkit-transform: translate3d(0, 15px, 0);
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
-        color: #000; }
+        color: #fff; }
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
@@ -1009,12 +1012,13 @@ body.offcanvas {
           font-style: 28px;
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
-          color: #000; }
+          color: #fff; }
         .project .desc span {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); } }
   .project:hover .desc {
-    opacity: 1; }
+    opacity: 1;
+    cursor: pointer; }
     .project:hover .desc h3 {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }
@@ -1427,3 +1431,27 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.lg-toolbar {
+  background: 0; }
+  .lg-toolbar #lg-share, #lg-download {
+    display: none; }
+  .lg-toolbar .lg-icon {
+    color: #ccc; }
+  .lg-toolbar #lg-counter, #lg-counter-current, #lg-counter-all {
+    color: #ccc; }
+.lg-actions .lg-icon {
+  background: 0;
+  color: #ccc; }
+.lg-sub-html {
+  color: white !important;
+  background: 0; }
+  .lg-sub-html h4 {
+    font-size: 16pt;
+    color: white; }
+  .lg-sub-html p {
+    font-size: 12pt;
+    color: white; }
+.lg-outer .lg-toogle-thumb {
+  background: 0;
+  color: #ccc; }
