@@ -1,165 +1,696 @@
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-
-    <title>Tong Zhou</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="dist/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="starter-template.css" rel="stylesheet">
-
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-46524831-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Benedikt Bünz's site </title>
+<meta name="description" content="Benedikt Bünz's website">
+<meta name="keywords" content="Jekyll, theme, responsive, blog, template">
 
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Benedikt Bünz's site">
+<meta property="og:description" content="Benedikt Bünz's website">
+<meta property="og:url" content="https://crypto.stanford.edu/~buenz/">
+<meta property="og:site_name" content="Benedikt Bünz's site">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
 
-  <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Tong Zhou</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class><a href="#">Home</a></li>
-	    <li><a href="#about">About</a></li>
-	    	    <li><a href="#teaching">Teaching</a></li>
-            <li><a href="#papers">Papers</a></li>
-	    <li><a href="#talks">Talks</a></li>
-	    <li><a href="#misc">Misc</a></li>
-        <li><a href="#tourism">Tourism</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+
+
+<link rel="canonical" href="https://crypto.stanford.edu/~buenz/">
+<link href="https://crypto.stanford.edu/~buenz/feed.xml" type="application/atom+xml" rel="alternate" title="Benedikt Bünz's site Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+<!-- Google Webfonts -->
+<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://crypto.stanford.edu/~buenz/assets/css/main.min.css">
+<link rel="stylesheet" href="https://crypto.stanford.edu/~buenz/assets/academicons.css" >
+<link rel="stylesheet" href="https://crypto.stanford.edu/~buenz/assets/css/styles.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="https://crypto.stanford.edu/~buenz/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="https://crypto.stanford.edu/~buenz/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="https://crypto.stanford.edu/~buenz/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<!-- Icons -->
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+<link rel="shortcut icon" href="https://crypto.stanford.edu/~buenz/favicon.ico">
+<link rel="shortcut icon" href="https://crypto.stanford.edu/~buenz/favicon.png">
+
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="192x192" href="https://crypto.stanford.edu/~buenz/images/apple-icon-precomposed.png">
+
+</head>
+
+<body class="page">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="site-name navbar-brand">
+		<a href="https://crypto.stanford.edu/~buenz">Benedikt Bünz's site</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation navbar-collapse">
+		    <ul class="navbar-nav">
+		        
+				<li "nav-item">
+                    <h4>
+                        <a class="nav-link" href="https://crypto.stanford.edu/~buenz/#publications" >Publications</a>
+                    </h4>
+                </li>
+		        
+				<li "nav-item">
+                    <h4>
+                        <a class="nav-link" href="https://crypto.stanford.edu/~buenz/cv/" >Curriculum</a>
+                    </h4>
+                </li>
+		        
+				<li "nav-item">
+                    <h4>
+                        <a class="nav-link" href="https://crypto.stanford.edu/~buenz/talks/" >Talks</a>
+                    </h4>
+                </li>
+		        
+				<li "nav-item">
+                    <h4>
+                        <a class="nav-link" href="https://crypto.stanford.edu/~buenz/personal/" >Personal</a>
+                    </h4>
+                </li>
+		        
+				<li "nav-item">
+                    <h4>
+                        <a class="nav-link" href="https://crypto.stanford.edu/~buenz/random/" >Random</a>
+                    </h4>
+                </li>
+		        
+
+		    </ul>
+
+	</div><!-- /.top-navigation -->
     </nav>
-    <div class="container">
-
-      <div class="row">
-        <div class="col-md-2">
-	   <div class="photo">
-	  <img id="picture" src="msr/image_1.JPG" style="width:185px;height:220px;" class="photo_pic" onmouseover="swapPictures1()" onmouseout="swapPictures2()"/>
-	</div>
-	<script>
-	  function swapPictures1() {
-	    document.getElementById("picture").src = "msr/bunny_hat.jpg";
-	  }
-
-	  function swapPictures2() {
-	    document.getElementById("picture").src = "msr/headshot-new-cropped.jpg";
-	  }
-	</script>
-	</div>
-        <div class="col-md-3">
-	  <h3>Tong Zhou</h3>
-	  <font size="3">
-	  <p>Wyman Park Building 6th Floor <br>
-	  3100 Wyman Park Drive, <br>
-	  Baltimore, MD 21211
-	  </p>
-	  <p>
- 	  zhoutong.econ AT gmail DOT com
-	  </p>
-	  My <a href="info/CV.pdf">CV</a> (last updated 2/19/2018)
-	  </font>
-	</div>
-      </div>
-      <div class="voffset1"></div>
-      <div class="row">
-        <div class="span12">
-	  <section id="about">
-
-
-	    <h3>About</h3>
-</section>
-
-<section id = "teaching">
-<h3>Teaching</h3>
-	
-<p>See the <a href="Econometrics_2020.html">Econometrics_2020_Spring</a> for more details.</p><br>
+</div><!-- /.navigation-wrapper -->
 
 
 
-	  </section>
 
-	  <section id="papers">
-	    <h3>Papers</h3>
-
-
-	  </section>
-
-	  <section id="misc">
-	     <h3>Misc</h3>
-
-         </section>
-
-         <section id="tourism">
-            ssss 
-         </section>
-	     <font size="1">* This might be false</font>
-	  </section>
-	</div>
-      </div>
-    </div><!-- /.container -->
+  <div class="image-wrap">
+  <img src=
+    
+      "https://crypto.stanford.edu/~buenz/images/road.jpg"
+    
+  alt=" feature image">
+  
+  </div><!-- /.image-wrap -->
 
 
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+	<img src="https://crypto.stanford.edu/~buenz/images/benedikt2.png" class="bio-photo" alt="Benedikt Bünz bio photo"></a>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<h3>Benedikt Bünz</h3>
+<p>I am researcher interested in applied cryptography especially as it relates to cryptocurrencies. My work focuses on enhancing the privacy, usability and security of protocols that are somehow related to blockchains. Currently I am pursuing my PhD in computer science at Stanford and am advised by <a href="https://crypto.stanford.edu/~dabo/">Dan Boneh</a>. I am a semi professional runner and enjoy travelling especially in inconvenient vehicles.</p>
 
-      ga('create', 'UA-78178749-1', 'auto');
-      ga('send', 'pageview');
+<a href="http://scholar.google.es/citations?user=Hj82r7MAAAAJ" class="author-social" target="_blank"><i class="ai ai-google-scholar-square"></i>&nbsp; G. Scholar</a>
 
-    </script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="/static/tracking.js"></script>
+<a href="http://linkedin.com/in/buenz" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+
+<a href="http://github.com/bbuenz" class="author-social" target="_blank"><i class="fa fa-github-square"></i> Github</a>
+
+
+
+
+
+
+<a href="mailto:benedikt@cs.stanford.edu" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> e-Mail</a>
+
+
+  </div>
+  <article>
+    <h1></h1>
+    <div class="article-wrap">
+      <h1 id="about-me">About Me:</h1>
+<p>–I am a fourth-year PhD student in the <a href="https://crypto.stanford.edu">Applied Crypto Group</a> and am advised by <a href="https://crypto.stanford.edu/~dabo">Dan Boneh</a></p>
+
+<p>–My main research interests are in cryptography, game theory and cryptocurrencies.</p>
+
+<p>–I am the Head of Research at <a href="https://www.findora.org">Findora</a>. Findora builds auditable yet private financial networks using advanced cryptography, including some of my own research.</p>
+
+<p>–I am an avid runner and train and compete for <a href="http://peninsuladistanceclub.com">Peninsula Distance Club</a></p>
+
+<h1 id="publications">Publications (<a href="http://scholar.google.es/citations?user=Hj82r7MAAAAJ">Google Scholar</a>):</h1>
+<h2>Cryptography and Cryptocurrencies</h2>
+
+<p>
+<div id="cryptoacordion" role="tablist">
+  <div class="card">
+<div class="card-header" role="tab" id="darksHeading">
+<h5 class="mb-0">
+  <a data-toggle="collapse" href="#darks" aria-expanded="false" aria-controls="collapseOne">
+  Transparent SNARKs from DARK Compilers
+  </a>
+</h5>
+</div>
+<div id="darks" class="collapse show" role="tabpanel" aria-labelledby="darksHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p>B. Bünz, <a href="https://sites.google.com/site/benafisch/">B. Fisch</a> and <a href="https://asz.ink">A. Szepieniec</a></p>
+            </dd>
+<dt>
+<a href="https://eprint.iacr.org/2019/1229">Paper</a> (Accepted at Eurocrypt 2020)
+</dt>
+<dt>
+<a href="https://www.youtube.com/watch?v=m3Cc0kuzhfg">Talk at Simons Institute</a>
+</dt>
+<dt>
+<a href="https://crypto.stanford.edu/~buenz/presentations/darks.pptx">Slides</a>
+</dt>
+<dt>TLDR</dt>
+<dd>
+We present a new polynomial commitment scheme from groups of unknown order with logarithmic proof size and logarithmic verifier time. Plugged into proof systems like Sonic, Plonk or Marlin this leads to SuperSonic a SNARK with 10KB proofs and <b>without</b> trusted setup! This is the shortest practical SNARK without trusted setup today. We also provide an abstraction for proof systems like Sonic et al. called polynomial IOPs. We show that using a polynomial commitment scheme (such as DARKs) they can be compiled to SNARKs. Moreover all of the cryptographic assumptions and trusted setup assumptions (or lack thereof) are in the polynomial commitment scheme.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+  <div class="card">
+<div class="card-header" role="tab" id="flyclientHeading">
+<h5 class="mb-0">
+  <a data-toggle="collapse" href="#flyclient" aria-expanded="false" aria-controls="collapseOne">
+ Flyclient: Super-Light Clients for Cryptocurrencies
+  </a>
+</h5>
+</div>
+<div id="flyclient" class="collapse" role="tabpanel" aria-labelledby="flyclientHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p>[B. Bünz], <a href="https://www.khoury.northeastern.edu/people/lucianna-kiffer/">L. Kiffer</a> , <a href="https://loiluu.com/">L. Luu</a> and <a href="http://mahdiz.com/">M. Zamani</a></p>
+            </dd>
+<dt>
+<a href="https://eprint.iacr.org/2019/226">Paper</a> (Accepted at IEEE S&amp;P (Oakland) 2020)
+</dt>
+<dt>
+<a href="https://www.youtube.com/watch?v=vuzYwutBqjY">Talk at Zcon</a>
+</dt>
+<dt>
+<a href="https://crypto.stanford.edu/~buenz/presentations/flyclient.pptx">Slides</a>
+</dt>
+<dt>TLDR</dt>
+<dd>
+We present Flyclient which is a protocol that lets a super-light client determine which is the correct (longest) proof of work chain. The client only needs to download a logarithmic number of block headers (say 200 instead of 1 million). The protocol is a non-interactive proof of proof of work (NiPoPoW) that shows that a chain has at least x amount of work put into it. It uses a random sampling of block headers to ensure that an adversary with limited mining power could not have produced this chain.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+ <div class="card">
+<div class="card-header" role="tab" id="accumulatorsHeading">
+<h5 class="mb-0">
+  <a data-toggle="collapse" href="#accumulators" aria-expanded="false" aria-controls="collapseOne">
+  Batching Techniques for Accumulators with Applications to IOPs and Stateless Blockchains
+  </a>
+</h5>
+</div>
+<div id="accumulators" class="collapse" role="tabpanel" aria-labelledby="accumulatorsHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p><a href="https://crypto.stanford.edu/~dabo">D. Boneh</a>,  B. Bünz and <a href="https://sites.google.com/site/benafisch/">B. Fisch</a></p>
+            </dd>
+<dt>
+<a href="https://eprint.iacr.org/2018/1188">Paper</a> (Published at Crypto 2019)
+</dt>
+<dt>
+<a href="https://youtu.be/IMzLa9B1_3E?t=3515">Talk at Scaling Bitcoin 18</a>
+</dt>
+<dt>
+<a href="https://crypto.stanford.edu/~buenz/presentations/accumulators.pptx">Slides</a>
+<a href="https://crypto.stanford.edu/~buenz/presentations/accumulatorcryptoday.pptx">Technical Slides</a>
+</dt>
+<dt>TLDR</dt>
+<dd>
+Accumulators are short commitment to a set that support efficient inclusion and exclusion proofs. We present several new batching techniques for accumulators and positional vector commitments in group of unknown order. Our techniques can be used in a stateless blockchain design where all users and miners only require a constant amount of storage. We also present a new vector commitment which can significantly reduce the proof size of IOP instantiations, such as STARKs.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+
+<div class="card">
+<div class="card-header" role="tab" id="zetherHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#zether" aria-expanded="false" aria-controls="collapseOne">
+  Zether: Towards Privacy in a Smart Contract World
+  </a>
+</h5>
+</div>
+<div id="zether" class="collapse" role="tabpanel" aria-labelledby="zetherHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p>B. Bünz, <a href="https://shashank-agrawal.com/">S. Agrawal</a>, <a href="http://mahdiz.com/">M. Zamani</a> and <a href="https://crypto.stanford.edu/~dabo">D. Boneh</a></p>
+            </dd>
+<dt>
+<a href="https://crypto.stanford.edu/~buenz/papers/zether.pdf">Paper</a> (Published at FC 2020)
+</dt>
+<dt>
+<a href="https://crypto.stanford.edu/~buenz/presentations/zether.pptx">Slides</a>
+</dt>
+<dt>TLDR</dt>
+<dd>
+We propose Zether, a private payment mechanism that is compatible with Ethereum and other account-based payment systems. Zether can provide both confidentiality (by hiding payment amounts) and anonymity (by hiding the identities of senders and recipients).  Zether is designed to be inter-operable with arbitrary smart contracts to support applications such as sealed-bid auctions, private payment channels, stake voting, and confidential proof-of-stake. Zether uses an extension to Bulletproofs called Sigma-Bullets which combines Bulletproofs with Sigma protocols.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header" role="tab" id="vdfsurveyHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#vdfsurvey" aria-expanded="false" aria-controls="collapseOne">
+  A Survey of 2 Verifiable Delay Functions
+  </a>
+</h5>
+</div>
+<div id="vdfsurvey" class="collapse" role="tabpanel" aria-labelledby="vdfsurveyHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p><a href="https://crypto.stanford.edu/~dabo">D. Boneh</a>,  B. Bünz and <a href="https://sites.google.com/site/benafisch/">B. Fisch</a></p>
+            </dd>
+<dt>
+<a href="https://crypto.stanford.edu/~dabo/pubs/papers/VDFsurvey.pdf">Paper</a>
+</dt>
+<dt>TLDR</dt>
+<dd>
+We briefly survey two beautiful VDF constructions by Wesolowski and Pietrzak. We give a new computational security proof for one of them and compare their security assumptions.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header" role="tab" id="vdfHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#vdf" aria-expanded="false" aria-controls="collapseOne">
+  Verifiable Delay Functions
+  </a>
+</h5>
+</div>
+<div id="vdf" class="collapse" role="tabpanel" aria-labelledby="vdfHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p><a href="https://crypto.stanford.edu/~dabo">D. Boneh</a>, <a href="http://www.jbonneau.com/">J.Bonneau</a>, B. Bünz and <a href="https://sites.google.com/site/benafisch/">B. Fisch</a></p>
+            </dd>
+<dt>
+<a href="https://eprint.iacr.org/2018/601">Paper</a> (Published at CRYPTO 2018)
+</dt>
+<dt>
+<a href="https://www.youtube.com/watch?v=_-feyaZZjEw">Talk by Ben Fisch at Crypto 2018</a>
+</dt>
+<dt>TLDR</dt>
+<dd>
+We introduce verifiable delay functions (VDFs) which have 3 key properties: They are a functions so for every input there is a unique output. Evaluation incurs a delay, i.e. it takes a significant amount of time even on a highly parallel machine. VDFs are verifiable such that given a proof a verifier can efficiently check that the VDF was evaluated correctly. VDFs have many applications from randomness beacons to proofs of replication and cointossing.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header" role="tab" id="bpHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#bulletproofs" aria-expanded="false" aria-controls="collapseOne">
+Bulletproofs: Short Proofs for
+Confidential Transactions and More
+  </a>
+</h5>
+</div>
+<div id="bulletproofs" class="collapse" role="tabpanel" aria-labelledby="bpHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p>B. Bünz, <a href="http://www0.cs.ucl.ac.uk/staff/J.Bootle/">J. Bootle</a>, <a href="https://crypto.stanford.edu/~dabo">D. Boneh</a>, <a href="https://www.wpsoftware.net/andrew/">Andrew Poelstra</a>, <a href="https://blockstream.com/team/pieter-wuille/">Pieter Wuille</a> and <a href="https://blockstream.com/team/greg-maxwell/">Greg Maxwell</a></p>
+            </dd>
+<dt>
+<a href="https://eprint.iacr.org/2017/1066">Paper</a> (Published at IEEE S&amp;P (Oakland) 2018)
+</dt>
+<dt>
+<a href="https://www.youtube.com/watch?v=Adrh6BCc_Ao">Talk at IEEE S&amp;P</a>
+</dt>
+<dt>
+<a href="https://crypto.stanford.edu/~buenz/presentations/bulletproofs.pptx">Slides</a>
+</dt>
+<dt>
+Implementations
+</dt>
+<dd>
+              <p><a href="https://github.com/bbuenz/BulletProofLib">Java reference implementation</a></p>
+
+              <p><a href="https://github.com/apoelstra/secp256k1-mw/tree/bulletproofs">libsecp256k1 implementation by Andrew Poelstra</a></p>
+            </dd>
+<dt>TLDR</dt>
+
+<dd>
+Confidential transactions are Bitcoin transactions which are publicly verifiable but do not reveal the amounts that are transferred. They rely on cryptographic commitments and so called zero-knowledge proofs of knowledge. We present a new kind of zero-knowledge proof which is much more efficient and can be used to drastically reduce the size of confidential transactions. On a more technical note bulletproofs are non-interactive zero knowledge proofs without trusted setup and
+with only logarithmic proof size. Proving and verification cost are linear with low constant overhead.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header" role="tab" id="provisionsheading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#provisions" aria-expanded="true" aria-controls="collapseOne">
+Provisions: Privacy-preserving proofs of solvency for Bitcoin exchanges
+  </a>
+</h5>
+</div>
+<div id="provisions" class="collapse" role="tabpanel" aria-labelledby="provisionsheading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p><a href="http://cs.boisestate.edu/~gdagher/">G. Dagher</a>, B. Bünz, <a href="http://www.jbonneau.com/">J.Bonneau</a>, <a href="https://users.encs.concordia.ca/~clark/">J.Clark</a> and <a href="https://crypto.stanford.edu/~dabo">D. Boneh</a></p>
+            </dd>
+<dt>
+<a href="https://eprint.iacr.org/2015/1008">Paper</a> (Published at CCS 2015)
+</dt>
+<dt>
+<a href="https://youtu.be/-zku26GNCa4?t=28m52s">Talk at Next Context Conference</a>
+</dt>
+<dt>
+Implementations
+</dt>
+<dd>
+              <p><a href="https://github.com/bbuenz/provisions">Java reference implementation</a></p>
+            </dd>
+<dt>
+<a href="https://freedom-to-tinker.com/2015/10/26/provisions-how-bitcoin-exchanges-can-prove-their-solvency/">Blog by Joseph Bonneau</a>
+</dt>
+<dt>TLDR</dt>
+
+<dd>
+How can a Bitcoin exchange proof that they have enough funds to satisfy all their customers demands without revealing the customers balances, the bitcoin addresses they control or even the total amount of bitcoin they have.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" role="tab" id="delayheading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#delay" aria-expanded="false" aria-controls="collapseOne">
+  Proofs-of-delay and randomness beacons in Ethereum
+  </a>
+</h5>
+</div>
+<div id="delay" class="collapse" role="tabpanel" aria-labelledby="delayheading" data-parent="#cryptoacordion">
+      <div class="card-body">
+
+Presented at <a href="http://prosecco.gforge.inria.fr/ieee-blockchain2016">IEEE S&amp;B Workshop</a>
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p>B. Bünz, <a href="http://www.stevengoldfeder.com">S. Goldfeder</a>, <a href="http://www.jbonneau.com">J. Bonneau</a></p>
+            </dd>
+<dt>
+<a href="http://www.jbonneau.com/doc/BGB17-IEEESB-proof_of_delay_ethereum.pdf">Paper</a>
+</dt>
+<dt>
+<a href="https://www.youtube.com/watch?v=kK4qN2K44Ms">Talk at CESC</a>
+</dt>
+<dt>
+<a href="https://drive.google.com/file/d/0B5PcPC6ZC_Gyb3V6NnRMZ2VZMFU/view">Slides</a>
+</dt>
+<dt>
+<a href="https://github.com/bbuenz/VerifiableBeacon">Code</a>
+</dt>
+
+<dt>TLDR</dt>
+
+<dd>
+We show how one can generate an unpredictable randomness beacon that is publicly verifiable using a blockchain. The beacon can be used to verify the correct execution of randomized algorithms such as lotteries. The novel property of the beacon is that it is publicly verifiable in that a verifier is convinced that the beacon was unpredictable even if she did not partake in the generation of the beacon and without any trust assumptions. We also show how we can enable interactive verification using an efficient smart contract.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+  </div>
+  </p>
+
+<h2>Game Theory (Combinatorial Auctions)</h2>
+<p>
+ <div id="gameacordion" role="tablist">
+  <div class="card">
+<div class="card-header" role="tab" id="cabneheading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#cabne" aria-expanded="false" aria-controls="collapseOne">
+Designing Core-Selecting Payment Rules: A Computational Search Approach  </a>
+</h5>
+</div>
+<div id="cabne" class="collapse" role="tabpanel" aria-labelledby="cabneheading" data-parent="#gameacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p>B. Bünz, <a href="http://people.bu.edu/blubin/">B. Lubin</a>, <a href="https://www.ifi.uzh.ch/en/ce/people/seuken.html">S. Seuken</a></p>
+            </dd>
+<dt>
+<a href="https://ssrn.com/abstract=3178454">Paper</a> (Published at <a href="http://www.sigecom.org/ec18/">EC 2018</a>)
+</dt>
+
+<dt>TLDR</dt>
+<dd>
+We systematically look for and evaluate payment rules for combinatorial auctions. Our evaluation is done by computing BNEs for the payment rule in various domains. We find new payment rules that performe significantly better than the currently used ones.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+ <div class="card">
+<div class="card-header" role="tab" id="ccgheading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#ccg" aria-expanded="false" aria-controls="collapseOne">
+A Faster Core Constraint Generation Algorithm for Combinatorial Auctions </a>
+</h5>
+</div>
+<div id="ccg" class="collapse" role="tabpanel" aria-labelledby="ccgheading" data-parent="#gameacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p>B. Bünz, <a href="http://people.bu.edu/blubin/">B. Lubin</a>, <a href="https://www.ifi.uzh.ch/en/ce/people/seuken.html">S. Seuken</a></p>
+            </dd>
+<dt>
+<a href="https://aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/10033/9376">Paper</a> (Published at AAAI 2015)
+</dt>
+<dt>
+	<a href="https://crypto.stanford.edu/~buenz/papers/aaaipresentation.pptx">Slides</a>
+</dt>
+
+<dt>TLDR</dt>
+<dd>
+	We significantly improve on the current state of the art algorithm for computing combinatorial auctions. These auctions were multiple related goods are sold in the same auction are for example used to allocated spectrum to cellular companies around the world. These auctions often generate billions of dollars in revenue but are often limited to a small number of bidders and goods. Faster algorithms for computing their outcome will enable larger scale applications.
+</dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+ <div class="card">
+<div class="card-header" role="tab" id="fastbneHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#fastbne" aria-expanded="false" aria-controls="collapseOne">
+Computing Bayes-Nash Equilibria in Combinatorial Auctions with Continuous Value and Action Spaces</a>
+</h5>
+</div>
+<div id="fastbne" class="collapse" role="tabpanel" aria-labelledby="fastbneHeading" data-parent="#gameacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p><a href="http://www.ifi.uzh.ch/en/ce/people/bosshard.html">V. Bosshard</a>, B. Bünz, <a href="http://people.bu.edu/blubin/">B. Lubin</a>, <a href="https://www.ifi.uzh.ch/en/ce/people/seuken.html">S. Seuken</a></p>
+            </dd>
+<dt>
+<a href="https://www.ijcai.org/proceedings/2017/18">Paper</a> (Published at IJCAI 2017)
+</dt>
+
+
+<dt>TLDR</dt>
+<dd>
+We design several new techniques for quickly computing bayes nash equilibria for combinatorial auctions.
+</dd>
+
+</dl>
+
+
+</div>
+</div>
+</div>
+
+
+ <div class="card">
+<div class="card-header" role="tab" id="fairnessHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#fairness" aria-expanded="false" aria-controls="collapseOne">
+New Core-Selecting Payment Rules
+with Better Fairness and Incentive Properties</a>
+</h5>
+</div>
+<div id="fairness" class="collapse" role="tabpanel" aria-labelledby="fairnessHeading" data-parent="#gameacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p><a href="http://people.bu.edu/blubin/">B. Lubin</a>, B. Bünz, <a href="https://www.ifi.uzh.ch/en/ce/people/seuken.html">S. Seuken</a></p>
+            </dd>
+<dt>
+	<a href="http://www.ifi.uzh.ch/ce/publications/Fairness_and_Incentives.pdf">Working Paper</a>
+</dt>
+<dt>
+<a href="http://eudl.eu/proceedings/AMMA/2015">Extended abstract published at AMMA 2015</a>
+</dt>
+
+
+
+</dl>
+</div>
+</div>
+</div>
+
+</div>
+</p>
+
+<h2>Artificial Intelligence</h2>
+<p>
+ <div class="card">
+<div class="card-header" role="tab" id="neurosatheader">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#neurosat" aria-expanded="false" aria-controls="collapseOne">
+Learning a SAT Solver from Single-Bit Supervision
+</a>
+</h5>
+</div>
+<div id="neurosat" class="collapse" role="tabpanel" aria-labelledby="neurosatheader">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+            <p><a href="http://stanford.edu/~dselsam/">D. Selsam</a>, M. Lamm, B. Bünz, <a href="https://cs.stanford.edu/~pliang/">P. Liang</a>, <a href="http://leodemoura.github.io/">L. de Moura</a>,<a href="https://profiles.stanford.edu/david-dill">D. Dill</a></p>
+          </dd>
+<dt>
+<a href="https://arxiv.org/abs/1802.03685">Paper</a> (To appear at ICLR 2019)
+</dt>
+<dt>
+<a href="https://www.youtube.com/watch?v=EqvzIGY_bI4">Talk by Daniel Selsam at Microsoft Research</a>
+</dt>
+
+<dt>
+	[Code](https://github.com/dselsam/neurosat)
+</dt>
+<dt>TLDR</dt>
+<dd>
+	We develop a neural network based solver for finding satisfying assignments to boolean formulas (SAT solver). At training time the network is given satisfying formulas and only the information of whether the formula has a solution or not. Despite this minimal supervision we are able to directly read of satisfying assignments from the activations of the network if it classifies a formula as satisfiable. Additionally we can even find contradictions if the formula is unsatisfiable. Given
+that classifying boolean formulas is an NP-complete problem this an interesting exploration into the abilities and flexibilities of neural network and also raises interesting possibilities of using neural networks in the development of state of the art SAT solvers.
+</dd>
+
+
+</dl>
+</div>
+</div>
+</div>
+</p>
+
+    </div><!-- /.article-wrap -->
+    
+  </article>
+</div><!-- /#index -->
+
+<div class="footer-wrap">
+  <footer>
+    <span>&copy; 2020 Benedikt Bünz. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="https://crypto.stanford.edu/~buenz/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="https://crypto.stanford.edu/~buenz/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-109194849-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+          
+
+</body>
 </html>
