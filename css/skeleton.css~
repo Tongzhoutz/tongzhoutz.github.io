@@ -161,7 +161,8 @@ a:link {
   color: blue; 
 }
 a:visited {
-  color: grey; }
+  color: grey;
+}
 
 
 /* Buttons
