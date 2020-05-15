@@ -135,7 +135,7 @@
 				   		</div>
 				   	</li>
 						
-				   	<li style="background-image: url(photos/china/nature2.jpg);">
+				   	<li style="background-image: url(photos/china/lantern.jpg);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -729,8 +729,8 @@
 					<div class="row">
 						
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(photos/sf-bay-area/DSC09650.jpg);">
-								<div class="desc" id="photos-sf-bay-area">
+							<div class="project" style="background-image: url(photos/united-states/washington2.jpg);">
+								<div class="desc" id="photos-Washington-DC">
 									<div class="con">
 										<h3>The San Francisco Bay Area</h3>
 										
