@@ -1,4 +1,4 @@
-<link href="css/skeleton.css" >
+<link href="css/skeleton.css" rel="stylesheet" type="text/css" >
 <body>
 <h2>Webpage for Econometrics (AS.180.633 2020 Spring)</h2>
 
@@ -14,8 +14,8 @@ Syllabus: <a href="syllabus.pdf">link</a><br>
 
 <h3>Suggested Solutions</h3>
 
-<a href="course/Econometrics_2020/hw_1_sol.pdf" style= "color:blue;" >Homework 1 Solution</a> <br>
-<a href="course/Econometrics_2020/hw_2_sol.pdf"style= "color:blue;" >Homework 2 Solution</a> <br>
+<a href="course/Econometrics_2020/hw_1_sol.pdf">Homework 1 Solution</a> <br>
+<a href="course/Econometrics_2020/hw_2_sol.pdf">Homework 2 Solution</a> <br>
 <a href="course/Econometrics_2020/hw_3_sol.pdf"style= "color:blue;" >Homework 3 Solution</a> <br>
 <a href="course/Econometrics_2020/hw_4_sol.pdf"style= "color:blue;" >Homework 4 Solution</a> <br>
 <a href="course/Econometrics_2020/hw_5_sol.pdf"style= "color:blue;" >Homework 5 Solution</a> <br>
