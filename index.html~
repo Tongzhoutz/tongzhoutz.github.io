@@ -962,7 +962,7 @@
 					dynamic: true, html: true,
 					dynamicEl: [
 						
-						{src: 'photos/sf-bay-area/DSC02433.png', thumb: 'photos/sf-bay-area/DSC02433.jpg', subHtml: "<h4>San Francisco</h4><p>Golden Gate Bridge from Marshall's Beach</p>"},
+						{src: 'photos/sf-bay-area/DSC02433.png', thumb: 'photos/sf-bay-area/DSC02433.png', subHtml: "<h4>San Francisco</h4><p>Golden Gate Bridge from Marshall's Beach</p>"},
 						
 						{src: 'photos/sf-bay-area/DSC02134.jpg', thumb: 'photos/sf-bay-area/thumb-DSC02134.jpg', subHtml: "<h4>San Francisco</h4><p>Golden Gate Bridge from the Presidio</p>"},
 						
