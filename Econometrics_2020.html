@@ -1,121 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<h2>Webpage for STAT260 (Robust Statistics)</h2>
 
-  <!-- Basic Page Needs
-  �������������������������������������������������� -->
-  <meta charset="utf-8">
-  <title>Robustness in Machine Learning</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+<b>Instructor:</b> <a href="https://www.stat.berkeley.edu/~jsteinhardt/index.html">Jacob Steinhardt</a> (jsteinhardt@berkeley)<br>
+<b>Lectures:</b> T/Th 12:30-2 (Evans 332)<br>
+<b>Office Hours:</b> F 11-12 (Evans 325)<br>
+<br>
+Syllabus: <a href="syllabus.pdf">link</a><br>
+<br>
+<b><u>IMPORTANT:</u></b> If you plan to take the class, sign up <a href="https://forms.gle/3VgzKJ8gRSe9wf4D6">here</a> to be added to the class 
+mailing list. Students who don't sign up by the end of the second week of instruction may be dropped from the class.
 
-  <!-- Mobile Specific Metas
-  �������������������������������������������������� -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<h3>Prerequisites</h3>
+No formal requirements, but this class will be fast-paced and assume mathematical maturity.
 
-  <!-- FONT
-  �������������������������������������������������� -->
-  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
+<h3>Lecture Notes</h3>
 
-  <!-- CSS
-  �������������������������������������������������� -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+Updated periodically: <a href="notes.pdf">link</a> (last update 11/21/2019)<br>
+<br>
+Please e-mail typos/corrections to me (jsteinhardt@berkeley with a dot edu at the end).<br>
+<br>See <a href="notes/">here</a> if you prefer notes broken up on a per-lecture basis.
 
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
-      "HTML-CSS": {
-      availableFonts: ["Asana-Math"],
-      preferredFont: "Asana-Math"
-      }
-      });
-    </script>
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+<h3>Problem Sets</h3>
 
-</head>
-<body>
+<a href="pset1.pdf">Problem Set 1</a> (due September 19th in class; corrected 09/12/2019) <a href="pset1.tex">tex source</a><br>
+<a href="pset2.pdf">Problem Set 2</a> (due October 8th in class) <a href="pset2.tex">tex source</a><br>
+<a href="pset3.pdf">Problem Set 3</a> (due October 24th in class) <a href="pset3.tex">tex source</a><br>
+<a href="pset4.pdf">Problem Set 4</a> (due November 12th in class) <a href="pset4.tex">tex source</a><br>
+<a href="pset5.pdf">Problem Set 5</a> (due December 11th via e-mail) <a href="pset5.tex">tex source</a>
 
-  <!-- Primary Page Layout
-  �������������������������������������������������� -->
-  <div class="container">
-    <div class="row" style="margin-top: 5%">
-      <h4>Econometrics (AS.180.633)</h4>
-      <ul>
-        <li>Instructor: <a href="yhu@jhu.edu">Yingyao Hu</a></li>
-        <li>TA: <a href="tzhou11@jhu.edu">Tong Zhou</a></li>
-        <li>Time: Wednesday 10:00&mdash;12:00 pm </li>
-        <li>Room: Wyman 603</li>
-        <li>Office hours: by appointment</li>
-      </ul>
-	    <h5>Suggested Solutions</h5>
-     <ul>
-        <li>Homework 1: <a href="course/Econometrics_2020/hw_1_sol.pdf">Suggested Solutions</a></li>
-        <li>Homework 2: <a href="course/Econometrics_2020/hw_2_sol.pdf">Suggested Solutions</a></li>
-        <li>Homework 3: <a href="course/Econometrics_2020/hw_3_sol.pdf">Suggested Solutions</a></li>
-	<li>Homework 4: <a href="course/Econometrics_2020/hw_4_sol.pdf">Suggested Solutions</a></li>
-	<li>Homework 5: <a href="course/Econometrics_2020/hw_5_sol.pdf">Suggested Solutions</a></li>
-	<li>Homework 6: <a href="course/Econometrics_2020/hw_6_sol.pdf">Suggested Solutions</a></li>
-	<li>Homework 7: <a href="course/Econometrics_2020/hw_7_sol.pdf">Suggested Solutions</a></li>
-	<li>Homework 8: <a href="course/Econometrics_2020/hw_8_sol.pdf">Suggested Solutions</a></li>
-	<li>Homework 9: <a href="course/Econometrics_2020/hw_9_sol.pdf">Suggested Solutions</a></li>
-      </ul>
+<h3>Schedule</h3>
 
-      <h5>Exams</h5>
-      <ul>
-        <li>Midterm Exam: <a href="course/Econometrics_2020/midterm_2020Spring.pdf">midterm</a></li>
-        <li>Final Exam: <a href="course/Econometrics_2020/Final_2020Spring.pdf">final</a></li>
-      </ul>
-	    
-	      <h5>Past Exams</h5>
+Lecture 1: Overview and 1D Robust Estimation (<a href="https://forms.gle/GWFnBvUMQccMerVc6">Feedback form</a>)<br>
+Lecture 2: Minimum Distance Functionals and Resilience (<a href="https://forms.gle/VXiyevaxKTmSP1x59">Feedback form</a>)<br>
+Lecture 3: Concentration Inequalities (<a href="https://forms.gle/x1f3oAGChHnQ88TD7">Feedback form</a>)<br>
+Lecture 4: Bounding Suprema via Concentration Inequalities (<a href="https://forms.gle/Mr1vuArPwCGNR4eu6">Feedback form</a>)<br>
+Lecture 5: Finite-Sample Analysis via Generalized KS Distance (<a href="https://forms.gle/XtDQYWLNCyF2kCDw8">Feedback form</a>)<br>
+Lecture 6: Finite-Sample Analysis via Expanding the Destination Set (<a href="https://forms.gle/TSHhtV62uh8gr7Qm8">Feedback form</a>)<br>
+Lecture 7: Truncated Moments and Ledoux-Talagrand (<a href="https://forms.gle/j6K1RvZhAN4nyudp8">Feedback form</a>)<br>
+Lecture 8: Efficient Algorithms: Projecting onto Maximum Eigenvector (<a href="https://forms.gle/L5iWjGzNQi78Lcf56">Feedback form</a>)<br>
+Lecture 9: Approximation Oracles and Grothendieck's Inequality (<a href="https://forms.gle/gyT1BxFDAsXFnqBz6">Feedback form</a>)<br>
+Lecture 10: Semidefinite Programming and Sum-of-Squares (<a href="https://forms.gle/JcJujuxcjgSV1Jsr6">Feedback form</a>)<br>
+Lecture 11: Sum-of-Squares and Poincar&#233; inequality (<a href="https://forms.gle/vNnaDTzsHj2jRjr48">Feedback form</a>)<br>
+Lecture 12: Resilience Beyond Mean Estimation (<a href="https://forms.gle/UUWtQsVR78cMtYCG8">Feedback form</a>)<br>
+Lecture 13: Resilience For Linear Regression<br>
+Lecture 14: Efficient Algorithms for Linear Regression<br>
+Lecture 15: Resilience for Wasserstein Distances<br>
+Lecture 16: Wasserstein Resilience for Moment Estimation and Linear Regression<br>
+Lecture 17: Test-Time Robustness<br>
+Lecture 18: Adversarial Training and Certified Robustness<br>
+Lecture 19: Randomized Smoothing<br>
+Lecture 20: Domain Adaptation under Covariate Shift<br>
+Lecture 21: Doubly-Robust Estimators and Semi-Parametric Estimation<br>
+Lecture 22: Partial Specification for Linear Regression<br>
+Lecture 23: Partial Specification and Agnostic Clustering<br>
+Lecture 24: Agnostic Clustering via Resilience<br>
+Lecture 25: Efficient Clustering via SVD + k-means<br>
+Lecture 26: Transfer Learning via Dimensionality Reduction<br>
+Lecture 27: TBD<br>
 
-<table border="1">
-    <tr> 
-<th align="right">Exam</th>
-<th align= "left">Solutions</th>
-    </tr>
-<tr>
-  <td align="center"><a href="course/Econometrics_2020/midterm_2020Spring.pdf">midterm_2020</a></td>
-  <td><a href="course/Econometrics_2020/midterm.sol.pdf">midterm</a> </td>
-</tr>   
-<tr>
-  <td><a href="course/Econometrics_2020/Final_2020Spring.pdf">final_2020</a></td>
-  <td>Row</td>
-</tr>
-</table>
+<br>
+<a href="https://forms.gle/uyVganPfVk58Mx3Q9">Feedback form</a> for Lecture 13 onwards.
 
-      <ul>
-          <li>Midterms: </li>
-          <ul>
-	<li>Midterm Exam 2015: <a href="course/Econometrics_2020/Mid_2015.pdf">midterm_2015</a></li>
-        <li>Midterm Exam 2016: <a href="course/Econometrics_2020/Mid_2016.pdf">midterm_2016</a></li>
-	<li>Midterm Exam 2017: <a href="course/Econometrics_2020/Mid_2017.pdf">midterm_2017</a></li>
-	<li>Midterm Exam 2019: <a href="course/Econometrics_2020/Mid_2019.pdf">midterm_2019</a></li>
-           </ul>
-            <li>Final exams: </li>
-      <ul>
-          <li>Final: <a href="Tongzhoutz/Econometrics/arzela-ascoli.pdf">Arzela-Ascoli</a></li>
-          <li>Final 2: <a href="Theorems/Arzela-Ascoli/arzela-ascoli.pdf">Arzela-Ascoli</a></li>
-      </ul>
-      </ul>
-		
-<h5>Review of Exams</h5>	
-<ul>
-   Review of Midterm: <a href="course/Econometrics_2020/Review_Midterm.pdf">Review_mid</a> 
-</ul>
-      <h5> Accommodations </h5>
-Please refer to university policies regarding
-<a href="http://depts.washington.edu/uwdrs/current-students/accommodations/">
-disability accommodations</a> or
-<a href="https://registrar.washington.edu/staffandfaculty/religious-accommodations-polic/"> religious accommodations</a>.
+<h3>Supplementary Reading List</h3>
 
-    </div>
-  </div>
+Jerry Li is teaching a <a href="https://jerryzli.github.io/robust-ml-fall19.html">class</a> on similar topics.<br>
+<br>
+<a href="https://www.stat.berkeley.edu/~jsteinhardt/pubs/steinhardt2018thesis.pdf">Robust Learning: Information Theory and Algorithms</a> (Jacob Steinhardt's thesis)<br>
+<a href="https://terrytao.wordpress.com/2010/01/03/254a-notes-1-concentration-of-measure/">Concentration of Measure</a> (lecture notes by Terence Tao)<br>
+<li>Alternate reference: <a href="http://www.econ.upf.edu/~lugosi/mlss_conc.pdf">Concentration Inequalities</a> (notes by Boucheron, Lugosi, and Bousquet)<br>
+<a href="https://arxiv.org/abs/1909.08755">Generalized Resilience and Robust Statistics</a> (Zhu, Jiao, Steinhardt)<br>
+<a href="https://jerryzli.github.io/papers/phd-thesis.pdf">Principled Approaches to Robust Machine Learning and Beyond</a> (Jerry Li's thesis)<br>
+<a href="https://stanford.edu/~jduchi/projects/probability_bounds.pdf">Probability Bounds</a> (John Duchi; contains exposition on Ledoux-Talagrand)<br>
+<a href="https://web.math.princeton.edu/~naor/homepage%20files/cutnorm.pdf">Approximating the Cut-Norm via Grothendieck's Inequality</a> (Alon and Naor)<br>
+<a href="https://arxiv.org/abs/1711.07465">Better Agnostic Clustering via Relaxed Tensor Norms</a> (Kothari and Steinhardt)<br>
+<a href="https://arxiv.org/abs/math/0701886">Ricci curvature of Markov chains on metric spaces</a> (Ollivier; relation between Poincar&#233; inequalities and Markov chain convergence)<br>
+<i>Concentration inequalities: A nonasymptotic theory of independence</i> (Boucheron, Lugosi, and Massart; good general survey that contains discussion of Poincar&#233; inequalities)<br>
+<a href="https://arxiv.org/abs/1711.00851">Provable Defenses against Adversarial Examples via the Convex Outer Adversarial Polytope</a> (Eric Wong and Zico Kolter)<br>
+<a href="https://arxiv.org/abs/1805.10265">Training Verified Learners with Learned Verifiers</a> (Krishnamurthy Dvijotham et al.)<br>
+<a href="https://arxiv.org/abs/1811.01057">Semidefinite relaxations for certifying robustness to adversarial examples</a> (Aditi Raghunathan et al.)
 
-<!-- End Document
-  �������������������������������������������������� -->
-    <script type="text/javascript" src="/static/tracking.js"></script>
-</body>
-</html>
