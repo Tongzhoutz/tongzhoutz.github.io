@@ -158,9 +158,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a:link {
-  color: blue; }
+  color: blue; 
+}
 a:visited {
-  color: green; }
+  color: grey;
+}
 
 
 /* Buttons
