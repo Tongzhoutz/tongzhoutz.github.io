@@ -1,4 +1,5 @@
-
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
 <head>
     <meta charset="utf-8">
     
@@ -24,8 +25,8 @@
     <li><p>Email: <a href="mailto: tzhou11@jhu.edu" target=&ldquo;blank&rdquo;>tzhou11@jhu.edu </a></p>
     </li></ul>
 
-<b>Lectures:</b> Wed --12pm (Wyman 603)<br>
-<b>Office Hours:</b> by appointment<br>
+    <li><b>Lectures:</b> Wed --12pm (Wyman 603)<br></li>
+    <li><b>Office Hours:</b> by appointment<br>
 <br>
 Syllabus: <a href="course/Econometrics_2020/syllabus.pdf">link</a><br>
 <br>
