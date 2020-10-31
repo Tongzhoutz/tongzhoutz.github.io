@@ -122,7 +122,8 @@
 	     <h3>Misc</h3>
 
 	  <section id="short notes">
-	     <h3>Misc</h3>
+	     <h3>short notes</h3>
+         <a href="short_notes/EM.pdf"><strong>The SprayList: A Scalable Relaxed Priority Queue</strong></a>
 
          </section>
 
