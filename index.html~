@@ -62,6 +62,7 @@
             <li class><a href="#">Home</a></li>
 	    <li><a href="#about">About</a></li>
 	    	    <li><a href="#teaching">Teaching</a></li>
+	    	    <li><a href="#short notes">Notes</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -109,7 +110,7 @@
 <section id = "teaching">
 <h3>Teaching</h3>
 
-<section id = "Notes">
+<section id = "short notes">
 <h3>Notes</h3>
 
 	
