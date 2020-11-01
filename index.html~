@@ -110,7 +110,7 @@
 <section id = "Teaching">
 <h3>Teaching</h3>
 
-I've had opportunities to TA the following courses:
+<p>I've had opportunities to TA the following courses:
 
 	
 <p>See the <a href="Econometrics_2020.html">Econometrics_2020_Spring</a> for more details.</p><br>
@@ -127,7 +127,7 @@ I've had opportunities to TA the following courses:
 
 	  <section id="short notes">
 	     <h3>short notes</h3>
-         <p>These notes are based on my past coursework and perks of my current research: </p>
+         <p>These notes have been built up based on my past coursework and perks of my current research: </p>
 
          <a href="short_notes/EM.pdf"><strong>EM Algorithm</strong></a><br>
 
