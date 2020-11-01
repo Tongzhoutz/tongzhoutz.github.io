@@ -93,7 +93,7 @@
 	  <p>
       zhoutong.econ AT gmail DOT com
 	  </p>
-	  My <a href="info/CV.pdf">CV</a> (last updated 2/19/2018)
+	  My <a href=" ">CV</a>  
 	  </font>
 	</div>
       </div>
@@ -108,6 +108,10 @@
 
 <section id = "teaching">
 <h3>Teaching</h3>
+
+<section id = "Notes">
+<h3>Notes</h3>
+
 	
 <p>See the <a href="Econometrics_2020.html">Econometrics_2020_Spring</a> for more details.</p><br>
 
@@ -134,7 +138,7 @@
 
          <a href="short_notes/Quantile_Treatment_Effects.pdf"><strong>Quantile Treatment Effect Models</strong></a><br>
 
-         <a href="short_notes/CI_Testing.pdf"><strong>Conditional Independence Testing</strong></a>
+         <a href="short_notes/CI_Testing.pdf"><strong>Conditional Independence Testing</strong></a><br>
          </section>
 
             ssss 
