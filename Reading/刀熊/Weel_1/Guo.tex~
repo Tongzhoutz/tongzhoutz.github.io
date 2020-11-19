@@ -1,0 +1,328 @@
+\documentclass[12pt, a4paper]{article} 
+\setlength{\oddsidemargin}{0.25 in}
+\setlength{\evensidemargin}{-0.25 in}
+\setlength{\topmargin}{-0.6 in}
+\setlength{\textwidth}{6.5 in}
+\setlength{\textheight}{8.5 in}
+\setlength{\headsep}{0.75 in}
+\setlength{\parindent}{0 in}
+\setlength{\parskip}{0.1 in}
+\usepackage{array}
+\usepackage{fancybox}
+%\usepackage{unicode-math}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, % make the links colored
+    linkcolor=blue, % color TOC links in blue
+    urlcolor=red, % color URLs in red
+    linktoc=all % 'all' will create links for everything in the TOC
+}
+
+
+\usepackage{color}
+\usepackage[svgnames]{xcolor}
+\usepackage{mdframed}
+\usepackage{framed}
+\usepackage{amsfonts,amssymb}
+\usepackage{soul}
+\definecolor{shadecolor}{rgb}{0.92,0.92,0.92}
+\definecolor{bluecolor}{rgb}{0.2,0.2,0.99}
+\usepackage{mathrsfs}
+\usepackage{amsthm,amsbsy}
+\usepackage{setspace}
+
+\usepackage{enumitem}  
+\usepackage{mathtools}
+%\usepackage{type1ec}
+%\usepackage{type1cm}
+%\usepackage{mathabx}
+%\usepackage{newtx}
+%\usepackage[scale=0.9]{fdsymbol}
+%\usepackage{stix2}
+\usepackage[sloped]{fourier}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs} %调整表格线与上下内容的间隔
+\usepackage{multirow}
+\usepackage[most]{tcolorbox}
+%\usepackage{tgbonum}
+%\usepackage[t1]{fontenc} % 与tgbonum一起
+
+
+\usepackage{bm}
+\usepackage{amsmath,graphicx}
+\usepackage{float,subfigure}
+%\usepackage{inputenc}
+\usepackage{xifthen}
+\newtcolorbox{definition}{
+freelance,
+breakable,
+before=\par\vspace{2\bigskipamount}\noindent,
+after=\par\bigskip,
+frame code={
+  \node[
+  anchor=south west,
+  inner xsep=8pt,
+  xshift=8pt,
+  rounded corners=5pt,
+  font=\bfseries\color{white},
+  fill=gray] at (frame.north west) (tit) {\strut definition:};
+  \draw[
+  line width=3pt,
+  rounded corners=5pt,gray
+  ] (tit.west) -| (frame.south west) -- ([xshift=15pt]frame.south west);
+},
+interior code={},
+top=2pt
+}
+% the following commands set up the lecnum (lecture number)
+% counter and make various numbering schemes work relative
+% to the lecture number.
+%
+%\newtheorem{prototheorem}{Theorem}[section]
+
+%\newenvironment{theorem}
+ %  {\colorlet{shadecolor}{orange!15}\begin{shaded}\begin{prototheorem}}
+  % {\end{prototheorem}\end{shaded}}
+
+
+
+
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{fact}[theorem]{Fact}
+\newtheorem{assumption}{Assumption}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{observation}[theorem]{Observation}
+
+\renewenvironment{proof}{\noindent{\bf Proof:}\hspace*{1em}}{\qed\bigskip\\}
+
+\newenvironment{proof-sketch}{\noindent{\bf Sketch of Proof:}
+  \hspace*{1em}}{\qed\bigskip\\}
+\newenvironment{proof-idea}{\noindent{\bf Proof Idea}
+  \hspace*{1em}}{\qed\bigskip\\}
+\newenvironment{proof-of-lemma}[1][{}]{\noindent{\bf Proof of Lemma {#1}}
+  \hspace*{1em}}{\qed\bigskip\\}
+\newenvironment{proof-of-proposition}[1][{}]{\noindent{\bf
+    Proof of Proposition {#1}}
+  \hspace*{1em}}{\qed\bigskip\\}
+\newenvironment{proof-of-theorem}[1][{}]{\noindent{\bf Proof of Theorem {#1}}
+  \hspace*{1em}}{\qed\bigskip\\}
+\newenvironment{inner-proof}{\noindent{\bf Proof}\hspace{1em}}{
+  $\bigtriangledown$\medskip\\}
+  \newenvironment{proof-attempt}{\noindent{\bf Proof attempt}
+  \hspace*{1em}}{\qed\bigskip\\}
+\newenvironment{proofof}[1]{\noindent{\bf Proof} of {#1}:
+  \hspace*{1em}}{\qed\bigskip\\}
+\newenvironment{remark}{\noindent{\bf Remark}
+  \hspace*{1em}}{\bigskip}
+
+\newcounter{example}
+
+\newenvironment{example}[1][]{
+  \refstepcounter{example}
+  \ifthenelse{\isempty{#1}}{%
+    % there is no text to display in the example
+    \noindent \textbf{Example \theexample:}\hspace*{.05em}
+  }{%
+    \noindent \textbf{Example \theexample} ({#1})\textbf{:}\hspace*{.05em}
+  }
+}{%
+  $\clubsuit$ \bigskip
+}
+
+\newenvironment{example*}[1][]{
+  \ifthenelse{\isempty{#1}}{%
+    % there is no text to display in the example
+    \noindent \textbf{Example:}\hspace*{.05em}
+  }{%
+    \noindent \textbf{Example} ({#1})\textbf{:}\hspace*{.05em}
+  }
+}{%
+  $\clubsuit$ \bigskip
+}
+
+\renewcommand{\cite}[1]{[#1]}
+\def\beginrefs{\begin{list}%
+        {[\arabic{equation}]}{\usecounter{equation}
+         \setlength{\leftmargin}{2.0truecm}\setlength{\labelsep}{0.4truecm}%
+         \setlength{\labelwidth}{1.6truecm}}}
+\def\endrefs{\end{list}}
+\def\bibentry#1{\item[\hbox{[#1]}]}
+
+%usage: \fig{number}{space-in-inches}{caption}
+\newcommand{\fig}[3]{
+			\vspace{#2}
+			\begin{center}
+			figure \thelecnum.#1:~#3
+			\end{center}
+	}
+% use these for theorems, lemmas, proofs, etc.
+      \title{Understanding Collaboration Among Nonprofit Organization: Combining Resource Dependence, Institutional, and Network Perspectives}
+    \author{Chao Guo and Muhittin Acar}
+\date{2005}
+   
+\begin{document}
+\maketitle
+\tableofcontents
+{\color{red} Focus on two aspects: 1. Overall structure. 2. Introduction. What to read?}
+
+{\color{red} In the first 10 minutes: figure out research question.}
+{\color{red} In the second time: challenging methods center around the research question.}
+
+{\color{red} In Introduction, 
+\begin{enumerate}
+  \item What is discussed in introduction?
+  \item How is the section structured?
+  \item What is the significance of study?
+  \item What is the research question?
+\end{enumerate}
+
+two statements must be made: 1. Why this paper is written and its importance and relation with other papers. 2. Research question. }
+
+{\color{blue} Structure of Introduction: scope of this study --> shortcomings of existing literature --> My study --> Research question --> Summarize findings --> Contributions --> Organization of this paper}
+\section{Theme} 
+{\color{red} can be shorter. Use two or three sentences to summarize}
+This paper aims to find relevant factors that impact formality of collaboration among nonprofit
+organizations. The authors identify eight types of collaborations and further classify them
+into two classes: informal ones and formal ones. They propose several factors that might be instrumental in making decisions of collaborations of nonprofit organizations, such that 
+resource dependency, institutional factors and network effects, and corresponding 
+hypotheses. They use survey data to test their hypotheses, and the method is based on 
+logistic regression since the dependence variable is binary. Their result shows that nonprofit organizations are more likely to form a formal collaborations as they are older, have a larger budget size, receives government funding but relies on fewer government funding streams, has more board linkages with other nonprofit organizations, and is not operating in the education and research or social service industry. The result is at odds with their hypothesis that a nonprofit organization with larger budget size tend to form a formal collaboration. Other regression results are consistent with their hypotheses.
+
+\section{Research Questions}
+This paper examines factors that influence the likelihood that nonprofit organizations develop formal types of collaborations versus informal ones. Specifically, they identify three types of factors: resource dependency, institutional and network perspectives.
+
+{\color{red} No literature review here. If necessary, it can be added here}
+\section{Hypotheses}
+
+{
+\color{red} Core part}
+{\color{red}: combine it with $3$ IV in the next part}.
+\subsection{Hypothesis 1}
+An organization with greater resource scarcity (or smaller resource sufficiency) 
+is more likely to develop formal types of collaborative activities.
+
+
+\subsection{Hypothesis 2}
+The likelihood of developing formal types of collaborative activities
+is curvilinearly  (taking an inverted U shape) related to the number of 
+an organization's government funding sources.
+
+
+\subsection{Hypothesis 3}
+The likelihood of developing formal types of collaborative 
+activities is associated with an organization's industry of operation.
+
+
+\subsection{Hypothesis 4}
+The more linkages an organization has with other nonprofits through
+its board, the more likely it will develop formal types of collaborative
+activities.
+
+
+\subsection{Hypothesis 5}
+An older organization is more likely to develop formal types of collaborative activities.
+
+\section{Research Method}
+\begin{enumerate}
+  \item Method: Logistic Regression
+  \item DV: forms of collaboration 
+    \begin{enumerate}
+      \item $1$: formal types of collaborative activities.
+      \item  $2$: informal ones.
+    \end{enumerate}
+  \item IV {\color{red} and Measures}
+    \begin{enumerate}
+      \item Resource sufficiency: $\log(\text{reported annual budget for}2001)$.
+      \item Diversity of government funding streams: categorical variable
+        \begin{enumerate}
+          \item $0$: no any government funding stream.
+          \item $1$: one or two government funding streams.
+          \item  $2$: three or more government funding streams.
+        \end{enumerate}
+      \item social and legal services industry
+        \begin{enumerate}
+          \item $1$: operates in the social and legal services industry.
+          \item $0$: otherwise.
+        \end{enumerate}
+      \item Education and research industry.
+        \begin{enumerate}
+          \item $1$: operates in the education and research industry.
+          \item  $0$: otherwise.
+        \end{enumerate}
+      \item Health services industry
+       \begin{enumerate}
+         \item $1$: operates in the health services industry.
+         \item $0$: otherwise.
+       \end{enumerate}
+     \item Arts and culture industry: similarly defined.
+     \item Board linkages: $\#$ of board members who serve on the boards or 
+       top management teams of other nonprofit organizations.
+     \item Organizational age: $\log(2001 - \text{year when a given organization was founded})$ 
+     \item board size: $\log(\# \text{people serving on the board})$.
+    \end{enumerate}
+  \item Sample: random drawn of $376$ nonprofit organizations in Los Angeles and 
+    sending out questionnaires.
+    \begin{enumerate}
+      \item response: $97 (25.8\%)$.
+    \end{enumerate}
+  \item Operationalization: three models vary in the number of regressors included and they are nested. 
+    \begin{enumerate}
+      \item Model 1: age $+$ resource and diversity.
+      \item Model $2$: Model  $1$  $+$ four industry indicators.
+      \item Model  $3$: Model  $2$  $+$ network effects.
+      \item Conclusion: Model  $3$ has the highest model fit, so focus on it.
+    \end{enumerate}
+\end{enumerate}
+
+\section{Result}{\color{red} should be more specific}
+Based on model $3$:
+\begin{enumerate}[label=(\alph*)]
+   \item Hypothesis 1 (resource): Not supported.
+   \item 2 (diversity): Partially supported.
+   \item 3. Industry: 
+    \item 4. Network: Support.
+    \item 5. Age: Support.
+\end{enumerate}
+
+\section{Conclusion}
+Contribution:
+
+1. Literature on why nonprofit organizations choose to form collaborations is meager. 
+This study fills this important void.
+
+2.  
+External validity. Reduced form study only focuses on Los Angeles.
+\begin{enumerate}
+\item Data: survey data is not reliable, potentially subject to the problem of
+  measurement error.
+\item How those factors are proposed? Is there any theoretical foundations?
+\item Regression: endogeneity a problem?
+\end{enumerate}
+Limitations:
+
+
+1. Cross-sectional data does not reveal a causal inference.
+
+2. Representative: not many small organizations.
+
+
+
+\section{Thoughts on this paper}
+{\color{red} strengths and weakness}
+\begin{enumerate}
+  \item External validity. Reduced form study only focuses on Los Angeles.
+  \item Data: survey data is not reliable, potentially subject to the problem of
+    measurement error. 
+  \item How those factors are proposed? Is there any theoretical foundations?
+  \item Regression: endogeneity a problem?
+\end{enumerate}
+
+\end{document}
+
+
