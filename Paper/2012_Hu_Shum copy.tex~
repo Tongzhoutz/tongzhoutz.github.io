@@ -1,0 +1,131 @@
+%
+% This is the LaTeX template file for lecture notes for CS267,
+% Applications of Parallel Computing.  When preparing 
+% LaTeX notes for this class, please use this template.
+%
+% To familiarize yourself with this template, the body contains
+% some examples of its use.  Look them over.  Then you can
+% run LaTeX on this file.  After you have LaTeXed this file then
+% you can look over the result either by printing it out with
+% dvips or using xdvi.
+%
+
+\documentclass{article}
+\setlength{\oddsidemargin}{0.25 in}
+\setlength{\evensidemargin}{-0.25 in}
+\setlength{\topmargin}{-0.6 in}
+\setlength{\textwidth}{6.5 in}
+\setlength{\textheight}{8.5 in}
+\setlength{\headsep}{0.75 in}
+\setlength{\parindent}{0 in}
+\setlength{\parskip}{0.1 in}
+\usepackage{array}
+\usepackage{booktabs} %调整表格线与上下内容的间隔
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{supertabular}
+% ADD PACKAGES here:
+%
+
+\usepackage{amsmath,amsfonts,graphicx}
+
+%
+% The following commands set up the lecnum (lecture number)
+% counter and make various numbering schemes work relative
+% to the lecture number.
+%
+\newcounter{lecnum}
+%\renewcommand{\thepage}{\thelecnum-\arabic{page}}
+\renewcommand{\thesection}{\thelecnum.\arabic{section}}
+\renewcommand{\theequation}{\thelecnum.\arabic{equation}}
+\renewcommand{\thefigure}{\thelecnum.\arabic{figure}}
+\renewcommand{\thetable}{\thelecnum.\arabic{table}}
+
+%
+% The following macro is used to generate the header.
+%
+\newcommand{\lecture}[4]{
+   \pagestyle{myheadings}
+   \thispagestyle{plain}
+   \newpage
+   \setcounter{lecnum}{#1}
+   \setcounter{page}{1}
+   \noindent
+   \begin{center}
+
+    \vspace*{4mm}
+}
+%
+% Convention for citations is authors' initials followed by the year.
+% For example, to cite a paper by Leighton and Maggs you would type
+% \cite{LM89}, and to cite a paper by Strassen you would type \cite{S69}.
+% (To avoid bibliography problems, for now we redefine the \cite command.)
+% Also commands that create a suitable format for the reference list.
+\renewcommand{\cite}[1]{[#1]}
+\def\beginrefs{\begin{list}%
+        {[\arabic{equation}]}{\usecounter{equation}
+         \setlength{\leftmargin}{2.0truecm}\setlength{\labelsep}{0.4truecm}%
+         \setlength{\labelwidth}{1.6truecm}}}
+\def\endrefs{\end{list}}
+\def\bibentry#1{\item[\hbox{[#1]}]}
+
+%Use this command for a figure; it puts a figure in wherever you want it.
+%usage: \fig{NUMBER}{SPACE-IN-INCHES}{CAPTION}
+\newcommand{\fig}[3]{
+			\vspace{#2}
+			\begin{center}
+			Figure \thelecnum.#1:~#3
+			\end{center}
+	}
+% Use these for theorems, lemmas, proofs, etc.
+\newtheorem{theorem}{Theorem}[lecnum]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newenvironment{proof}{{\bf Proof:}}{\hfill\rule{2mm}{2mm}}
+
+% **** IF YOU WANT TO DEFINE ADDITIONAL MACROS FOR YOURSELF, PUT THEM HERE:
+
+\newcommand\E{\mathbb{E}}
+\usepackage{colortbl}
+\usepackage{longtable}
+\begin{document}
+\begin{longtable}[b]{|p{10cm}<{\raggedright}|p{7cm}<{\raggedright}|}
+\multicolumn{2}{l}{\small{\textbf{Paper}}} \tabularnewline
+% title hei，e
+\multicolumn{2}{l}{\small{\color{blue} \large Identifiability of parameters in latent structure models with many observed variables}} \tabularnewline \specialrule{0.15em}{3pt}{3pt}
+% Summary 
+\bf{\large Primary} & \bf{\large Comments}\\\specialrule{0.15em}{3pt}{3pt}
+This paper    & \\
+&    
+\vspace{1em}
+
+\bigskip 
+
+
+\vspace{7em}
+
+\\\specialrule{0.15em}{3pt}{3pt}
+\bf{\large Model}  &\bf{\large Comments}\\\specialrule{0.15em}{3pt}{3pt}
+
+\\\specialrule{0.15em}{3pt}{3pt}
+%% Models
+\bf{\large Assumptions} & \bf{\large Comments} \\ \specialrule{0.15em}{3pt}{3pt}
+  \\\specialrule{0.15em}{3pt}{3pt}
+%% Lemmas 
+\bf{\large Lemmas} & \bf{\large Comments} \\ \specialrule{0.15em}{3pt}{3pt}
+
+\\\specialrule{0.15em}{3pt}{3pt}
+%% Identification 
+\bf{\large Identification Strategy} & \bf{\large Comments} \\ \specialrule{0.15em}{3pt}{3pt}
+%% Can learn
+\bf{\large What can learn from it} & \bf{\large Questions and Doubts} \\ \specialrule{0.15em}{3pt}{3pt}
+\end{longtable}
+\end{document}
+
+
+
+
+
