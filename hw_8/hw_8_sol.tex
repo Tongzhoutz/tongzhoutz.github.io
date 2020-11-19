@@ -1,0 +1,360 @@
+\documentclass[12pt, a4paper,oneside,leqno]{article} 
+\setlength{\oddsidemargin}{0.2 in}
+%\setlength{\evensidemargin}{0 in}
+\setlength{\topmargin}{-1 in}
+\setlength{\textwidth}{6 in}
+\setlength{\textheight}{9.5 in}
+\setlength{\headsep}{0.75 in}
+\setlength{\parindent}{0 in}
+\setlength{\parskip}{0.1 in}
+\usepackage{array}
+\usepackage{fancybox}
+%\usepackage{unicode-math}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, % make the links colored
+    linkcolor=blue, % color TOC links in blue
+    urlcolor=cyan, % color URLs in red
+    linktoc=all % 'all' will create links for everything in the TOC
+}
+\usepackage{nameref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{  \thepage \hspace{-1em} \vspace{-4em}}
+\lhead{ \itshape \hspace{-1.3em}  \textsf{ HW\_8\_Solution} \vspace{-4em}}
+
+\renewcommand{\headrulewidth}{0pt}
+\usepackage{color}
+\usepackage[svgnames]{xcolor}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.8,0.188,0.48}
+\usepackage{mdframed}
+\usepackage{framed}
+%\usepackage{amsfonts}
+\usepackage{soul}
+\definecolor{shadecolor}{rgb}{0.92,0.92,0.92}
+\definecolor{bluecolor}{rgb}{0.2,0.2,0.99}
+%\usepackage{mathrsfs}
+\usepackage{amsbsy}
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{enumitem}  
+%\usepackage{everysel}
+\fontdimen7\font=5em
+%\usepackage{type1ec}
+%\usepackage{type1cm}
+%\usepackage{mathabx}
+%\usepackage[scale=0.9]{fdsymbol}
+%\usepackage[sloped]{fourier}
+%\usepackage{libertine}
+\usepackage{booktabs} %调整表格线与上下内容的间隔
+\usepackage{multirow}
+\usepackage[most]{tcolorbox}
+%\usepackage{tgbonum}
+%\usepackage[bitstream-charter,cal=cmcal]{mathdesign}
+\usepackage[T1]{fontenc} % 与tgbonum一起
+\usepackage[upint,lcgreekalpha]{stix2}
+\DeclareFontFamily{TU}{mdbch}{}
+\DeclareFontShape{TU}{mdbch}{m}{n}{
+ <-> \UnicodeFontFile{lmroman10-regular}{\UnicodeFontTeXLigatures}
+}{}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{mathtools}
+\usepackage[nameinlink,capitalize]{cleveref}
+
+\usepackage{amsthm}
+%\usepackage{amssymb}
+%\usepackage{graphics}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subfigure}
+%\usepackage{subcaption}
+\usepackage{float}
+%\usepackage{inputenc}
+\usepackage{xifthen}
+\usepackage{xeCJK}
+\newtcolorbox{definition}{
+freelance,
+breakable,
+before=\par\vspace{2\bigskipamount}\noindent,
+after=\par\bigskip,
+frame code={
+  \node[
+  anchor=south west,
+  inner xsep=8pt,
+  xshift=8pt,
+  rounded corners=5pt,
+  font=\bfseries\color{white},
+  fill=gray] at (frame.north west) (tit) {\strut definition:};
+  \draw[
+  line width=3pt,
+  rounded corners=5pt,gray
+  ] (tit.west) -| (frame.south west) -- ([xshift=15pt]frame.south west);
+},
+interior code={},
+top=2pt
+}
+% the following commands set up the lecnum (lecture number)
+% counter and make various numbering schemes work relative
+% to the lecture number.
+%
+%\newtheorem{prototheorem}{Theorem}[section]
+
+%\newenvironment{theorem}
+ %  {\colorlet{shadecolor}{orange!15}\begin{shaded}\begin{prototheorem}}
+  % {\end{prototheorem}\end{shaded}}
+
+
+
+
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{fact}[theorem]{Fact}
+\newtheorem{assumption}{Assumption}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{observation}[theorem]{Observation}
+
+\renewenvironment{proof}{\noindent{ Proof.}\hspace*{1em}}{\qed\vspace{1em}\\}
+
+\newenvironment{proof-sketch}{\noindent{ Sketch of Proof:}
+  \hspace*{1em}}{\qed\bigskip\\}
+\newenvironment{proof-idea}{\noindent{ Proof Idea}
+  \hspace*{1em}}{\qed\bigskip\\}
+\newenvironment{proof-of-lemma}[1][{}]{\noindent{ Proof of Lemma {#1}}
+  \hspace*{1em}}{\qed\bigskip\\}
+\newenvironment{proof-of-proposition}[1][{}]{\noindent{
+    Proof of Proposition {#1}}
+  \hspace*{1em}}{\qed\bigskip\\}
+\newenvironment{proof-of-theorem}[1][{}]{\noindent{ Proof of Theorem {#1}}
+  \hspace*{1em}}{\qed\bigskip\\}
+\newenvironment{inner-proof}{\noindent{ Proof}\hspace{1em}}{
+  $\bigtriangledown$\medskip\\}
+  \newenvironment{proof-attempt}{\noindent{ Proof attempt}
+  \hspace*{1em}}{\qed\bigskip\\}
+\newenvironment{proofof}[1]{\noindent{ Proof} of {#1}:
+  \hspace*{1em}}{\qed\bigskip\\}
+  \newenvironment{remark}{\noindent{\bfseries Remark. \hspace{-1.5em}}
+  \hspace*{1em}}{\bigskip}
+\lstset{ 
+  frame=single,
+  language=R,                     % the language of the code
+  aboveskip = 3mm,
+  belowskip = 2mm,
+  basicstyle=\footnotesize\ttfamily, % the size of the fonts that are used for the code
+  %numbers=left, % where to put the line-numbers
+  columns = flexible,
+  numbers = left,
+  numberstyle = \tiny\color{gray},
+  stepnumber=1,                   % the step between two line-numbers. If it is 1, each line
+                                  % will be numbered
+  numbersep=5pt,                  % how far the line-numbers are from the code
+  backgroundcolor=\color[gray]{0.93},  % choose the background color. You must add \usepackage{color}
+  showspaces=false,               % show spaces adding particular underscores
+  showstringspaces=false,         % underline spaces within strings
+  showtabs=false,                 % show tabs within strings adding particular underscores
+  %frame=single,                   % adds a frame around the code
+  rulecolor=\color{black},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
+  tabsize=3,                      % sets default tabsize to 2 spaces
+  captionpos=b,                   % sets the caption-position to bottom
+  breaklines=true,                % sets automatic line breaking
+  breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+  keywordstyle = \color{RoyalBlue},
+  commentstyle=\color{dkgreen},   % comment style
+  stringstyle=\color{ForestGreen}      % string literal style
+} 
+
+\newcounter{example}
+
+\newenvironment{example}[1][]{
+  \refstepcounter{example}
+  \ifthenelse{\isempty{#1}}{%
+    % there is no text to display in the example
+    \noindent \textbf{Example \theexample:}\hspace*{.05em}
+  }{%
+    \noindent \textbf{Example \theexample} ({#1})\textbf{:}\hspace*{.05em}
+  }
+}{%
+  $\clubsuit$ \bigskip
+}
+
+\newenvironment{example*}[1][]{
+  \ifthenelse{\isempty{#1}}{%
+    % there is no text to display in the example
+    \noindent \textbf{Example:}\hspace*{.05em}
+  }{%
+    \noindent \textbf{Example} ({#1})\textbf{:}\hspace*{.05em}
+  }
+}{%
+  $\clubsuit$ \bigskip
+}
+
+\renewcommand{\cite}[1]{[#1]}
+\def\beginrefs{\begin{list}%
+        {[\arabic{equation}]}{\usecounter{equation}
+         \setlength{\leftmargin}{2.0truecm}\setlength{\labelsep}{0.4truecm}%
+         \setlength{\labelwidth}{1.6truecm}}}
+\def\endrefs{\end{list}}
+\def\bibentry#1{\item[\hbox{[#1]}]}
+%usage: \fig{number}{space-in-inches}{caption}
+\newcommand{\fig}[3]{
+			\vspace{#2}
+			\begin{center}
+			figure \thelecnum.#1:~#3
+			\end{center}
+	}
+% use these for theorems, lemmas, proofs, etc.
+
+
+\newcommand{\lecture}[4]{
+\begin{center}
+  \hspace*{-0.7em}\fcolorbox{black}{white}{
+    \begin{minipage}{1.011\columnwidth}
+        \text{\bfseries \large #1}
+      \hfill
+      \text{\bfseries \large Spring 2020} \\
+      \vspace{-.35cm}
+
+      \begin{center}
+        {\Large #2: Suggested Solutions} \\
+      \end{center}
+      \textsf{\itshape \normalsize Instructor: \href{mailto: yhu@jhu.edu}{#3}}
+      \hfill
+      \textsf{\itshape  By: \href{mailto: tzhou11@jhu.edu}{#4}  }  % You should put your name here if you scribe
+    \end{minipage}
+  }
+\end{center}
+}
+%\title{}
+%\author{Tong Zhou}
+\usepackage{blindtext}
+%\date{\today}
+\begin{document}
+\thispagestyle{empty}
+%\lecture{Homework}{3}{Yingyao Hu}{Tong Zhou}
+\lecture{AS.180.633: Econometrics}{Homework 8}{ Yingyao Hu}{ Tong Zhou}
+\small
+\begin{spacing}{1.3}
+  \fontdimen2\font=0.4em
+{\colorlet{shadecolor}{blue!10}\begin{shaded}\vspace{-2em}
+    \section*{\large \text{11.14}}   \vspace{-1.5em}
+    JHU \dots
+Take the model 
+\begin{align*}
+y_{i} &=  \bm{\pi}_{i}^\prime \bm{\beta} + e_{i} \\
+\bm{\pi}_{i} &= \mathbb{E}[\bm{x}_{i} | \bm{z} _{i} ] = \bm{\Gamma}^\prime \bm{z} _{i} \\
+\mathbb{E}[e_{i} | \bm{z}_{i} ] &=  0
+\end{align*}
+where $y_{i}$ is scalar, $\bm{x}_{i} $ is a $k$ vector and  $\bm{z}_{i} $ is an $\ell$ vector.  $\bm{\beta} $ and $\bm{\pi}_{i} $ are $k \times  1$ and $\bm{\Gamma} $ is $\ell \times k$. The sample is $\left( y_{i}, \bm{x}_{i}, \bm{z}_{i} \colon i = 1, \cdots, n   \right)$ with $\bm{\pi}_{i} $ unobserved.
+
+Consider the estimator $\widehat{\bm{\beta} } $ for $\bm{\beta} $ by OLS of $y_{i}$ on $\widehat{\bm{\pi} }_{i} = \widehat{\bm{\Gamma} }^\prime \bm{z}_{i}  $, where $\widehat{\bm{\Gamma} } $ is the OLS coefficient from the multivariate regression of $\bm{x}_{i} $ on $\bm{z}_{i} $. 
+\begin{enumerate}[label = (\alph*)]
+  \item Show that $\widehat{\bm{\beta} } $ is consistent for $\bm{\beta} $.
+  \item Find the asymptotic distribution $\sqrt{n}\left( \widehat{\bm{\beta} } - \bm{\beta}   \right) $ as $n       \to \infty$, assuming that $\bm{\beta}=\bm{0}  $ 
+  \item Why is the assumption $\bm{\beta}=\bm{0}  $ an important simplifying condition in part (b)?
+  \item Using the result in (c), construct an appropriate asymptotic test for the hypothesis $\mathbb{H}_{0}\colon \bm{\beta}=\bm{0}  $.
+\end{enumerate}
+\end{shaded}}
+\vspace{-1.5em}
+  
+{\colorlet{shadecolor}{gray!15}\begin{shaded}
+   \begin{proof}
+     \textbf{(a)}
+
+     Since $\bm{y} = \bm{Z} \bm{\Gamma} \bm{\beta} + \bm{e}     $,
+     \begin{align*}
+       \widehat{\bm{\beta} } &= \left( \widehat{\bm{\Gamma} }^\prime \bm{Z}^\prime \bm{Z} \widehat{\bm{\Gamma} }     \right)^{-1} \widehat{\bm{\Gamma} }^\prime \bm{Z}^\prime \bm{y}   \\
+       &=  \left( \widehat{\bm{\Gamma} }^\prime \bm{Z}^\prime \bm{Z} \widehat{\bm{\Gamma} }     \right)^{-1} \widehat{\bm{\Gamma} }^\prime \bm{Z}^\prime \bm{Z} \bm{\Gamma} \bm{\beta} +  \left( \widehat{\bm{\Gamma} }^\prime \bm{Z}^\prime \bm{Z} \widehat{\bm{\Gamma} }     \right)^{-1} \widehat{\bm{\Gamma} }^\prime \bm{Z}^\prime \bm{e}    \\
+       &=  \left( \widehat{\bm{\Gamma} }^\prime \left(\frac{1}{n}\bm{Z}^\prime \bm{Z}\right) \widehat{\bm{\Gamma} }     \right)^{-1} \widehat{\bm{\Gamma} }^\prime \left(\frac{1}{n}\bm{Z}^\prime \bm{Z}\right) \bm{\Gamma} \bm{\beta} +  \left( \widehat{\bm{\Gamma} }^\prime \left(\frac{1}{n}\bm{Z}^\prime \bm{Z}\right) \widehat{\bm{\Gamma} }     \right)^{-1} \widehat{\bm{\Gamma} }^\prime (\frac{1}{n}\bm{Z}^\prime \bm{e}).   
+     \end{align*}
+       By $\mathbb{E}[\bm{x}_{i} | \bm{z}_{i}  ] = \bm{\Gamma}^\prime \bm{z}_{i}  $, $\widehat{\bm{\Gamma} } \stackrel{\mathsf{P}}{\longrightarrow} \bm{\Gamma}  $. Also, $\frac{1}{n}\bm{Z}^\prime \bm{Z} \stackrel{\mathsf{P}}{\longrightarrow} \bm{Q}_{zz}\equiv \mathbb{E}[\bm{z}_{i}\bm{z}_{i}^\prime  ]   $ and $ \frac{1}{n}\bm{Z}^\prime \bm{e} \stackrel{\mathsf{P}}{\longrightarrow} \bm{0}   $ by $\mathbb{E}[e_{i}|\bm{z}_{i} ]=0$.
+
+       Therefore, we find \[
+         \widehat{\bm{\beta} } \stackrel{\mathsf{P}}{\longrightarrow} \left( \bm{\Gamma}^\prime \bm{Q}_{zz} \bm{\Gamma}    \right)^{-1} \left( \bm{\Gamma}^\prime \bm{Q}_{zz} \bm{\Gamma}    \right) \bm{\beta} \equiv \bm{\beta}   
+       \]
+   \textbf{(b)}
+
+       Following (a), we have 
+\begin{align}
+  \sqrt{n}\left( \widehat{\bm{\beta} } - \bm{\beta}   \right) &=  \left( \widehat{\bm{\Gamma} }^\prime \left( \frac{1}{n}\bm{Z}^\prime \bm{Z}   \right)^{-1} \widehat{\bm{\Gamma} }   \right)^{-1} \widehat{\bm{\Gamma} }^\prime \left( \frac{1}{n} \bm{Z}^\prime \bm{Z}   \right)\bm{\Gamma}\bm{\beta} - \bm{\beta} \label{term1} \\
+  &+ \left( \widehat{\bm{\Gamma} }^\prime \left( \frac{1}{n}\bm{Z}^\prime\bm{Z}   \right)\widehat{\Gamma}   \right)^{-1} \widehat{\bm{\Gamma} }^\prime \left( \frac{1}{\sqrt{n} } \bm{Z}^\prime \bm{e}  \right) 
+\end{align}         
+
+Under the assumption $\bm{\beta} = \bm{0}  $, it reduces to 
+\begin{align*}
+  \sqrt{n}\left( \widehat{\bm{\beta} } - \bm{\beta}   \right) =  \left( \widehat{\bm{\Gamma} }^\prime \left( \frac{1}{n}\bm{Z}^\prime\bm{Z}   \right)\widehat{\Gamma}   \right)^{-1} \widehat{\bm{\Gamma} }^\prime \left( \frac{1}{\sqrt{n} } \bm{Z}^\prime \bm{e}  \right) 
+\end{align*}
+
+By the CLT, $\frac{1}{\sqrt{n} } \bm{Z}^\prime \bm{e} \stackrel{\mathsf{d}}{\longrightarrow} \mathscr{N}\left( \bm{0}, \Omega  \right)   $, where $\Omega = \mathbb{E}[\bm{z}_{i}\bm{z}_{i}^\prime e_{i}^2  ].$ Hence,\[
+  \sqrt{n}\left( \widehat{\bm{\beta} } - \bm{\beta}   \right) \stackrel{\mathsf{d}}{\longrightarrow} \mathscr{N}\left( \bm{0}, \left( \bm{\Gamma}^\prime \bm{Q}_{zz} \bm{\Gamma}    \right)^{-1} \left( \bm{\Gamma}^\prime \bm{\Omega} \bm{\Gamma}    \right) \left( \bm{\Gamma}^\prime \bm{Q}_{zz} \bm{\Gamma}    \right)^{-1}  \right)  
+\]
+\textbf{(c)}
+
+Without $\bm{\beta} = \bm{0}  $, the term \cref{term1} is $O_{p}(1)$ and therefore contaminates the asymptotic distribution in (b)
+
+\textbf{(d)}
+
+Under $\bm{\beta} = \bm{0}  $, apply the result in (b), a Wald statistic can be used \[
+  \mathcal{W}_{n} = n  \widehat{\bm{\beta} } ^{\,^\prime}  \widehat{\bm{V} }_{\bm{\beta} }^{-1} \widehat{\bm{\beta} }      
+\]
+where $\widehat{\bm{V} }_{\bm{\beta} } = \left( \widehat{\bm{\Gamma} }^\prime \widehat{\bm{Q} }_{zz} \widehat{\bm{\Gamma} }    \right)^{-1} \left( \widehat{\bm{\Gamma} }^\prime \widehat{\bm{\Omega} } \widehat{\bm{\Gamma} }    \right)\left( \widehat{\bm{\Gamma} }^\prime \widehat{\bm{Q} }_{zz} \widehat{\bm{\Gamma} }    \right)^{-1}. $
+     \end{proof}\vspace{-1.5em}
+\end{shaded}}
+
+
+{\colorlet{shadecolor}{blue!10}\begin{shaded}\vspace{-2em}
+    \section*{\large \text{12.2}}   \vspace{-1.5em}
+In the linear model 
+\begin{align*}
+y_{i} &= \bm{x}_{i}^\prime \bm{\beta} + e_{i} \\
+\mathbb{E}[e_{i} | \bm{x}_{i} ] &= 0
+\end{align*}
+suppose $\sigma_{i}^2 = \mathbb{E}[e_{i}^2 | x_{i}]$ is known. Show that the GLS estimator of $\bm{\beta} $ can be written as an IV estimator using some instrument $\bm{z}_{i} $. (Find an expression for $\bm{z}_{i} $.)
+\end{shaded}}
+
+       {\colorlet{shadecolor}{gray!15}\begin{shaded}
+          \begin{proof}
+The GLS estimator can be written as :
+\begin{align*}
+  \widehat{\bm{\beta} }_{GLS} &= \left( \bm{X}^\prime \bm{\Omega}^{-1} \bm{X}   \right)^{-1} \left( \bm{X}^\prime \bm{\Omega}^{-1} \bm{y}    \right) \\
+  &= \left( \bm{W}^\prime \bm{X}   \right)^{-1} \bm{W}^\prime \bm{y}  
+\end{align*}
+where $\bm{\Omega} = \operatorname{diag}\left( \sigma^2_{1},\dots,\sigma^2_{n} \right) $ and $\bm{W} = \bm{\Omega}^{-1} \bm{X}   $.
+           \end{proof}\vspace{-2.5em}
+
+       \end{shaded}} 
+
+
+{\colorlet{shadecolor}{blue!10}\begin{shaded}\vspace{-2em}
+    \section*{\large \text{12.3}}   \vspace{-1.5em}
+Take the linear model \[
+  \bm{y} = \bm{X}\bm{\beta} + \bm{e}    
+\]
+Let the OLS estimator for $\bm{\beta} $  be $\widehat{\bm{\beta} } $ and the OLS residual be $\widehat{e} = y - \bm{X}\widehat{\bm{\beta} }   $.
+
+Let the IV estimator for $\bm{\beta} $ using some instrument $\bm{Z} $ be $\widetilde{\bm{\beta} } $ and the 
+IV residual be $\widetilde{\bm{e} } = \bm{y} - \bm{X}\widetilde{\bm{\beta} }.    $ If $\bm{X} $ is indeed endogenous, will IV ``fit'' better than OLS, in the sense that $\widetilde{\bm{e} }^{\,^\prime} \widetilde{\bm{e} } < \widehat{\bm{e} }^{\,^\prime} \widehat{\bm{e} }?    $
+\end{shaded}}
+\vspace{-1.5em}
+
+       {\colorlet{shadecolor}{gray!15}\begin{shaded}
+          \begin{proof}
+            Define $\widetilde{\bm{M} } = \bm{I} - \bm{X}\left( \bm{X}^\prime \bm{P} _{\bm{Z} } \bm{X}   \right)^{-1} \bm{X}^\prime \bm{P} _{\bm{Z} } \bm{y}     $, where $\bm{P} _{\bm{Z} } = \bm{Z}\left( \bm{Z}^\prime \bm{Z}   \right)^{-1} \bm{Z}^\prime  $.
+
+            Then $\widetilde{\bm{e} } = \widetilde{\bm{M} }\bm{e}   $, and the proof is similar to that in Problem 6 of Midterm. Observing $\widetilde{\bm{M} }^\prime \bm{M}\widetilde{\bm{M} } = \bm{M}    $, it is easy to show \[
+              \widetilde{\bm{e} }^{\,^\prime} \widetilde{\bm{e} } \geqslant \widehat{\bm{e} }^{\,^\prime} \widehat{\bm{e} }   
+            \]
+           \end{proof}\vspace{-2.5em}
+
+       \end{shaded}} 
+
+\end{spacing}
+\end{document}
