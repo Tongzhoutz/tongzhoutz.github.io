@@ -39,7 +39,7 @@
 
 <h3>Webpage for Econometrics (AS.180.633 2021 Spring)</h3>
 
-<ul>
+<ul style="list-style-type:square;">
   <li>Instructor: <a href="yhu@jhu.edu">Yingyao Hu</a> 
   <ul>
     <li> Office Hours: </li>
@@ -57,7 +57,7 @@
 </ul>
 
 <h4>Suggested Solutions</h4>
-<ul>
+<ul style="list-style-type:square;">
     <li>
 <a href="course/Econometrics_2021/hw_1_sol.pdf">Homework 1 Solution</a> <br>
     </li>
