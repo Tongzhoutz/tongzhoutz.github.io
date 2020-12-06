@@ -1,0 +1,73 @@
+<head>
+
+  <!-- Basic Page Needs
+  �������������������������������������������������� -->
+  <meta charset="utf-8">
+  <title>Econometrics 2021 Spring</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  �������������������������������������������������� -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  �������������������������������������������������� -->
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  ������������������������������������������������� -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      "HTML-CSS": {
+      availableFonts: ["Asana-Math"],
+      preferredFont: "Asana-Math"
+      }
+      });
+    </script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+  <div class = "container">
+    <div class = "row" style="margin-top: 5%">
+
+      <h3>Webpage for AS.180.633: Econometrics (Spring 2021)</h3>
+
+<ul style="list-style-type:square;">
+  <li>Instructor: <a href="yhu@jhu.edu">Yingyao Hu</a> 
+  <ul style="list-style-type:square;">
+    <li> Office Hours: </li>
+    <li> Zoom: </li>
+  </ul>
+  </li>
+  <li>TA: <a href="tzhou11@jhu.edu">Tong Zhou</a>
+  <ul style="list-style-type:square;">
+    <li> Office Hours: </li>
+    <li> Zoom: </li>
+  </ul>
+  </li>
+  <li>Lectures: Wednesday 10am -- 12pm, online</li>
+  <li>Syllabus: <a href="course/Econometrics_2020/syllabus.pdf">link</a></li>
+</ul>
+
+<h4>Suggested Solutions</h4>
+<ul style="list-style-type:square;">
+    <li>
+<a href="course/Econometrics_2021/hw_1_sol.pdf">Homework 1 Solution</a> <br>
+    </li>
+</ul>
+
+
+
+
+
+
+
+
+</body>
