@@ -37,7 +37,7 @@
   <div class = "container">
     <div class = "row" style="margin-top: 5%">
 
-<h3>Webpage for Econometrics (AS.180.633-2021.Spring)</h3>
+      <h3>Webpage for AS.180.633: Econometrics (AS.180.633-2021-Spring)</h3>
 
 <ul style="list-style-type:square;">
   <li>Instructor: <a href="yhu@jhu.edu">Yingyao Hu</a> 
@@ -47,7 +47,7 @@
   </ul>
   </li>
   <li>TA: <a href="tzhou11@jhu.edu">Tong Zhou</a>
-  <ul>
+  <ul style="list-style-type:square;">
     <li> Office Hours: </li>
     <li> Zoom: </li>
   </ul>
