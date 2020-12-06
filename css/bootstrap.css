@@ -137,7 +137,7 @@ select,
 textarea {
   color: inherit;
   font: inherit;
-  margin: 0;
+  margin: 10;
 }
 
 button {
