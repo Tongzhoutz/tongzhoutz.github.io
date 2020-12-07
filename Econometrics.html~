@@ -33,6 +33,7 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 </head>
+
 <body>
   <div class = "container">
     <div class = "row" style="margin-top: 5%">
@@ -60,16 +61,6 @@
 <ul style="list-style-type:square;">
     <li>
       Homework 1: Problem 2.15, 2.16, 2.19  &nbsp  <a href="course/Econometrics_2021/hw_1_sol.pdf"><strong>Solution</strong></a> 
-    </li>
-    <li>
-      Homework 2:  
-    </li>
-    <li>
-      Homework 3:
-    </li>
-
-    <li>
-      Homework 4:
     </li>
 </ul>
 
