@@ -101,8 +101,6 @@
       <div class="row">
         <div class="span12">
 	  <section id="about">
-
-
 	    <h3>About</h3>
         <p>
         I am a Ph.D student at the department of economicss at JHU. I expect to graduate in Spring 2022.
@@ -110,10 +108,25 @@
         <p>
         My primary research interests are in econometric theory, statistical theory and their applications in real world problems, but I am broadly interested in many other things in statistical learning theory.  
         </p>
+</section>
 
 
+	  <section id="Papers">
+	    <h3>Papers</h3>
+        <h4>Theses</h4>
+        <ul>
+          <li><p>
+            <strong>Nonlinear Earnings Dynamics: an Extended Panel Data Framework with an Application in the PSID Data  </strong><br>
+            Tong Zhou. <br>
+            Ph.D thesis<br>
+            </p></li>
 
-
+            <li><p>
+              <strong>Measurement Errors in Stochastic Frontier Models </strong><br>
+              Tong Zhou.<br>
+              Master's thesis<>
+              </p></li>
+        </ul>
 </section>
 
 <section id = "Teaching">
@@ -176,9 +189,7 @@
 
            <li><p><a href="short_notes/Wasserstein_distance.pdf"><strong>Wasserstein Distance </strong></a></p></li>
 
-           <li><p><a href="short_notes/WLLN.pdf"><strong>Weak Law of Large Numbers</strong></a></p></li>
            
-           <li><p><a href="short_notes/WLLN.pdf"><strong>Weak Law of Large Numbers</strong></a></p></li>
          </ul>
          </section>
 
