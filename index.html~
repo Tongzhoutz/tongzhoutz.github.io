@@ -104,12 +104,22 @@
 
 
 	    <h3>About</h3>
+        <p>
+        I am a Ph.D student at the department of economicss at JHU. I expect to graduate in Spring 2022.
+        </p>
+        <p>
+        My primary research interests are in econometric theory, statistical theory and their applications in real world problems, but I am broadly interested in many other things in statistical learning theory.  
+        </p>
+
+
+
+
 </section>
 
 <section id = "Teaching">
 <h3>Teaching</h3>
 
-<p>I've had opportunities to TA the following courses: </p>
+<p><h4>I've had opportunities to TA the following courses:<> </p>
 
 <ul>
   <li><p> <a href="Econometrics.html">Econometrics (Ph.D level)</a>, Spring 2019, Spring 2020, Spring 2021 </p></li>
@@ -130,7 +140,7 @@
 	  <section id="short notes">
 	     <h3>short notes</h3>
          <ul>
-         <p>These notes have been built up based on my past coursework and perks of my research: </p>
+         <p>These notes have been built up based on my past coursework and research. Those may contain factual errors. Comments or suggestions are welcome.  </p>
 
          <li>   <a href="short_notes/EM.pdf"><strong>EM Algorithm</strong></a></li>
 
@@ -142,7 +152,7 @@
 
          <li><a href="short_notes/Quantile_Treatment_Effects.pdf"><strong>Quantile Treatment Effect Models</strong></a></li>
 
-         <li><a href="short_notes/CI_Testing.pdf"><strong>Conditional Independence Testing</strong></a><br>
+         <li><a href="short_notes/CI_Testing.pdf"><strong>Conditional Independence Testing</strong></a></li>
          </ul>
          </section>
 
