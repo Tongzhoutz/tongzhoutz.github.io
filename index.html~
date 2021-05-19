@@ -139,20 +139,20 @@
 	  </section>
 	  <section id="short notes">
 	     <h3>short notes</h3>
-           <p><h5>These notes have been built up based on my past coursework and research. Those may contain factual errors. Comments or suggestions are welcome. <h5></p>
+           <p><h5>These notes have been built up based on my past coursework and research, but may contain factual errors. Comments or suggestions are welcome. <h5></p>
 
          <ul>
-         <li>   <a href="short_notes/EM.pdf"><strong>EM Algorithm</strong></a></li>
+           <li><p>   <a href="short_notes/EM.pdf"><strong>EM Algorithm</strong></a></p></li>
 
-         <li><a href="short_notes/Empirical_Bayes.pdf"><strong>Empirical Bayes</strong></a></li>
+           <li><p><a href="short_notes/Empirical_Bayes.pdf"><strong>Empirical Bayes</strong></a></p></li>
 
-         <li><a href="short_notes/minimax.pdf"><strong>Minimax Theory</strong></a></li>
+           <li><p><a href="short_notes/minimax.pdf"><strong>Minimax Theory</strong></a></p></li>
 
-         <li><a href="short_notes/nonparametric_regression.pdf"><strong>Nonparametric Regression</strong></a></li>
+           <li><p><a href="short_notes/nonparametric_regression.pdf"><strong>Nonparametric Regression</strong></a></p></li>
 
-         <li><a href="short_notes/Quantile_Treatment_Effects.pdf"><strong>Quantile Treatment Effect Models</strong></a></li>
+           <li><p><a href="short_notes/Quantile_Treatment_Effects.pdf"><strong>Quantile Treatment Effect Models</strong></a></p></li>
 
-         <li><a href="short_notes/CI_Testing.pdf"><strong>Conditional Independence Testing</strong></a></li>
+           <li><p><a href="short_notes/CI_Testing.pdf"><strong>Conditional Independence Testing</strong></a><></li>
          </ul>
          </section>
 
