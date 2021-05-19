@@ -146,9 +146,23 @@
 
            <li><p><a href="short_notes/Empirical_Bayes.pdf"><strong>Empirical Bayes</strong></a></p></li>
 
+           <li><p><a href="short_notes/M_estimator.pdf"><strong>M-estimation </strong></a></p></li>
+
            <li><p><a href="short_notes/minimax.pdf"><strong>Minimax Theory</strong></a></p></li>
 
            <li><p><a href="short_notes/nonparametric_regression.pdf"><strong>Nonparametric Regression</strong></a></p></li>
+
+           <li><p><a href="short_notes/VI.pdf"><strong>Variational Inference</strong></a></p></li>
+
+           <li><p><a href="short_notes/RKHS.pdf"><strong>Reproducing Kernel Hilbert Space </strong></a></p></li>
+
+           <li><p><a href="short_notes/UI.pdf"><strong>Uniform Integrability</strong></a></p></li>
+
+           <li><p><a href="short_notes/AA.pdf"><strong>The Arzela-Ascoli Theorem </strong></a></p></li>
+
+           <li><p><a href="short_notes/BC.pdf"><strong>The Borel-Cantelli Lemmas </strong></a></p></li>
+
+           <li><p><a href="short_notes/lowerSemiCont.pdf"><strong>Lower/Upper Semi-continuity</strong></a></p></li>
 
            <li><p><a href="short_notes/Quantile_Treatment_Effects.pdf"><strong>Quantile Treatment Effect Models</strong></a></p></li>
 
@@ -158,9 +172,9 @@
 
            <li><p><a href="short_notes/WLLN.pdf"><strong>Weak Law of Large Numbers</strong></a></p></li>
            
-           <li><p><a href="short_notes/WLLN.pdf"><strong>Weak Law of Large Numbers</strong></a></p></li>
+           <li><p><a href="short_notes/SLLN.pdf"><strong>Strong Law of Large Numbers</strong></a></p></li>
 
-           <li><p><a href="short_notes/WeakConv.pdf"><strong>Weak Convergence</strong></a></p></li>
+           <li><p><a href="short_notes/Wasserstein_distance.pdf"><strong>Wasserstein Distance </strong></a></p></li>
 
            <li><p><a href="short_notes/WLLN.pdf"><strong>Weak Law of Large Numbers</strong></a></p></li>
            
