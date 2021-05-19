@@ -118,9 +118,8 @@
 
   <li><p> Econometrics (undergraduate level), Fall 2017, Fall 2018 </p></li>
 
-  <li><p> Statistics (Carey Business School), Fall 2016, Fall 2017, Fall 2018 </p><br>
-	
-<\ul>
+  <li><p> Statistics (Carey Business School), Fall 2016, Fall 2017, Fall 2018 </p></li>
+</ul>
 
 
 
@@ -128,23 +127,23 @@
 
 
 	  </section>
-
-
 	  <section id="short notes">
 	     <h3>short notes</h3>
+         <ul>
          <p>These notes have been built up based on my past coursework and perks of my research: </p>
 
-         <a href="short_notes/EM.pdf"><strong>EM Algorithm</strong></a><br>
+         <li>   <a href="short_notes/EM.pdf"><strong>EM Algorithm</strong></a></li>
 
-         <a href="short_notes/Empirical_Bayes.pdf"><strong>Empirical Bayes</strong></a><br>
+         <li><a href="short_notes/Empirical_Bayes.pdf"><strong>Empirical Bayes</strong></a></li>
 
-         <a href="short_notes/minimax.pdf"><strong>Minimax Theory</strong></a><br>
+         <li><a href="short_notes/minimax.pdf"><strong>Minimax Theory</strong></a></li>
 
-         <a href="short_notes/nonparametric_regression.pdf"><strong>Nonparametric Regression</strong></a><br>
+         <li><a href="short_notes/nonparametric_regression.pdf"><strong>Nonparametric Regression</strong></a></li>
 
-         <a href="short_notes/Quantile_Treatment_Effects.pdf"><strong>Quantile Treatment Effect Models</strong></a><br>
+         <li><a href="short_notes/Quantile_Treatment_Effects.pdf"><strong>Quantile Treatment Effect Models</strong></a></li>
 
-         <a href="short_notes/CI_Testing.pdf"><strong>Conditional Independence Testing</strong></a><br>
+         <li><a href="short_notes/CI_Testing.pdf"><strong>Conditional Independence Testing</strong></a><br>
+         </ul>
          </section>
 
 	  <section id="misc">
