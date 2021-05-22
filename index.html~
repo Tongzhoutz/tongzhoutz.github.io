@@ -61,6 +61,7 @@
           <ul class="nav navbar-nav">
             <li class><a href="#">Home</a></li>
 	    <li><a href="#about">About</a></li>
+	    <li><a href="#about">Papers</a></li>
 	    	    <li><a href="#teaching">Teaching</a></li>
 	    	    <li><a href="#short notes">Notes</a></li>
           </ul>
@@ -106,9 +107,7 @@
         I am a Ph.D student at the department of economicss at JHU. I expect to graduate in Spring 2022.
         </p>
         <p>
-        My primary research interests are in econometrics and statistical theory especially as they relate to machine learning techniques. My work focus on enhancing the understanding of hardcore economic problems with cutting edge theoretical  
-
-        but I am broadly interested in many other things in statistical learning theory.  
+        My primary research interests are in econometrics and statistical theory especially as they relate to machine learning techniques. My work focus on enhancing the understanding of hardcore economic problems by developing new econometric methods.   
         </p>
 </section>
 
@@ -129,6 +128,12 @@
               Master's thesis<br>
               </p></li>
         </ul>
+        <h4>Research in Progress</h4>
+        <ul>
+            <li><p>
+              <strong>            </strong><br>
+              </p>
+          </ul>
 </section>
 
 <section id = "Teaching">
