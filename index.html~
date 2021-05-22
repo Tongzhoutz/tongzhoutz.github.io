@@ -117,31 +117,8 @@
         <h4>Theses</h4>
         <ul>
           <li><p>
-  <div class="card">
-<div class="card-header" role="tab" id="darksHeading">
-<h5 class="mb-0">
-  <a class="collapsed" data-toggle="collapse" href="#darks" aria-expanded="false" aria-controls="collapseOne">
             <strong>Nonlinear Earnings Dynamics: an Extended Panel Data Framework with an Application in the PSID Data  </strong><br>
-  </a>
-</h5>
 </li>
-</div>
-<div id="ipp" class="collapse" role="tabpanel" aria-labelledby="ippHeading" data-parent="#cryptoacordion">
-      <div class="card-body">
-<dl>
-<dt>TLDR</dt>
-<dd>
-We propose a method to overcome the curse of dimensionality and to apply density-based clustering to high-dimensional data, when protoclusters (knots) are generated from data.  We first find a large set of knots using a density-based criterion that is estimable even in high-dimensions. These similarity measures behave like the bones connecting knows. Finally, we merge knots according to a linkage criterion to create the final clusters.
-</dd>
-
-</dl>
-</div>
-</div>
-</div>
-
-
-
-
             Tong Zhou. <br>
             Ph.D thesis<br>
             </p></li>
