@@ -129,10 +129,6 @@
 <div id="ipp" class="collapse" role="tabpanel" aria-labelledby="ippHeading" data-parent="#cryptoacordion">
       <div class="card-body">
 <dl>
-<dt>Authors</dt>
-<dd>
-              <p>Tong Zhou</p>
-            </dd>
 <dt>TLDR</dt>
 <dd>
 We propose a method to overcome the curse of dimensionality and to apply density-based clustering to high-dimensional data, when protoclusters (knots) are generated from data.  We first find a large set of knots using a density-based criterion that is estimable even in high-dimensions. These similarity measures behave like the bones connecting knows. Finally, we merge knots according to a linkage criterion to create the final clusters.
