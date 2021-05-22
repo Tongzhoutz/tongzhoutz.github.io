@@ -165,43 +165,6 @@ We propose a method to overcome the curse of dimensionality and to apply density
 </div>
 
   <div class="card">
-<div class="card-header" role="tab" id="nestaHeading">
-<h5 class="mb-0">
-  <a class="collapsed" data-toggle="collapse" href="#nesta" aria-expanded="false" aria-controls="collapseOne">
-  Proof-Carrying Data from Accumulation Schemes
-  </a>
-</h5>
-</div>
-<div id="nesta" class="collapse" role="tabpanel" aria-labelledby="nestaHeading" data-parent="#cryptoacordion">
-      <div class="card-body">
-<dl>
-<dt>Authors (alphabetical)</dt>
-<dd>
-              <p>B. Bünz, <a href="https://people.eecs.berkeley.edu/~alexch">A. Chiesa</a>, <a href="https://people.eecs.berkeley.edu/~pratyushmishra">P. Mishra</a> and <a href="https://people.eecs.berkeley.edu/~spooner/">N. Spooner</a></p>
-            </dd>
-<dt>
-<a href="https://eprint.iacr.org/2020/499">Paper</a> (To appear at TCC 2020)
-</dt>
-<dt>
-<a href="https://www.youtube.com/watch?v=UNwlBq1FQ3E">Talk by Nick at BU</a>
-</dt>
-<dt>
-<a href="https://crypto.stanford.edu/~buenz/presentations/nesta.pptx">Slides</a>
-</dt>
-<dt>TLDR</dt>
-<dd>
-We present a new cryptographic tool called an accumulation scheme for proof systems (unrelated to set accumulators). An accumulation scheme for a predicate (such as proof verification) enables the accumulation of multiple invocations of the predicate and old accumulators into a new accumulator. Checking that the accumulation was done correctly is ideally much cheaper than deciding the predicate itself. In the end a decider can determine whether the final accumulator is valid
-and if so this implies that all accumulated predicate checks were valid. Together this enables delaying and combining expensive checks.
-This is particularly useful as we show that accumualtion schemes can be used to build very efficient recursive proofs. This approach was proposed by Bowe, Grigg and Hopwood in recent work called [Halo](eprint.iacr.org/2019/1021). We formalize and prove correctness of this approach. We also show that a variant of the accumulation scheme from Halo and an accumulation scheme based on bilinear maps satisfy our definitions and are secure. The resulting recursive proof constructions have
-significant new efficiency and security features.
-</dd>
-
-</dl>
-</div>
-</div>
-</div>
-
-  <div class="card">
 <div class="card-header" role="tab" id="darksHeading">
 <h5 class="mb-0">
   <a class="collapsed" data-toggle="collapse" href="#darks" aria-expanded="false" aria-controls="collapseOne">
