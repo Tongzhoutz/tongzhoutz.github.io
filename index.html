@@ -135,6 +135,8 @@
               </p>
           </ul>
 
+<p>
+<div id="cryptoacordion" role="tablist">
 
   <div class="card">
 <div class="card-header" role="tab" id="ippHeading">
@@ -174,7 +176,403 @@ Our results are supported by a modular and efficient implementation.
 </div>
 </div>
 </div>
+  <div class="card">
+<div class="card-header" role="tab" id="ippHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#ipp" aria-expanded="false" aria-controls="collapseOne">
+  Proofs for Inner Pairing Products and Applications
+  </a>
+</h5>
+</div>
+<div id="ipp" class="collapse" role="tabpanel" aria-labelledby="ippHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors (alphabetical)</dt>
+<dd>
+              <p>B. Bünz, M. Maller, <a href="http://people.eecs.berkeley.edu/~pratyushmishra/">P. Mishra</a>, <a href="https://www.cs.cornell.edu/~tyagi/">Nirvan Tyagi</a> and Psi Vesely</p>
+            </dd>
+<dt>
+<a href="https://eprint.iacr.org/2019/1177">Paper</a> (Preprint) 
+</dt>
+<dt>
+<a href="https://www.youtube.com/watch?v=slm5sL3IgGo">Talk at Simons Institute</a>
+</dt>
+<dt>
+<a href="https://crypto.stanford.edu/~buenz/presentations/InnerPairingProducts.pptx">Slides</a>
+</dt>
+<dt>
+<a href="https://github.com/arkworks-rs/ripp">Implementation</a>
+</dt>
+<dt>TLDR</dt>
+<dd>
+We present several proof systems (innner pairing products) for proving algebraic relations over pairing equations. These proof systems efficiently allow a prover to show that committed group elements satisfy certain bilinear (pairing) equalities. We present them as a generalization of the inner-product argument of Bulletproofs. We specialize and optimize them for several highly relevant applications. 
+Firstly, we built the first succinct polynomial commitment scheme where the evaluation prover only has <b>additive</b> overhead over evaluating the polynomial. The commitment scheme has both a transparent variant with square root verifier time and one with universal updatable setup with logarithmic verifier time. 
+As described in the <a href="#darks">DARK paper</a> polynomial commitments can be used to build general purpose SNARKS.
+Additionally, we show that the inner pairing product can be used to efficiently outsource the verification of pairing equations such as BLS signatures. A prover can give a short proof that n BLS signatures are correct and the verifier can check this proof using 2n group exponentiations but only <b>one</b> expensive pairing. This protocol can be used in a blockchain where a block contains many signatures and fast verification of the block is vital. 
+Finally, we use a variant of the inner pairing product to aggregate n pairing based SNARKs such as <a href="https://eprint.iacr.org/2016/260.pdf">Groth 16</a> into a logarithmic sized proof. Verifiying this batched proof only takes O(log(n)) time. Aggregating SNARKs could only previously be achieved through expensive recursive proof techniques and NP reductions. The Inner Pairing Product on the other hand is fully algebraic and does not rely on expensive NP reductions.
+</dd>
 
+</dl>
+</div>
+</div>
+</div>
+
+  <div class="card">
+<div class="card-header" role="tab" id="nestaHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#nesta" aria-expanded="false" aria-controls="collapseOne">
+  Proof-Carrying Data from Accumulation Schemes
+  </a>
+</h5>
+</div>
+<div id="nesta" class="collapse" role="tabpanel" aria-labelledby="nestaHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors (alphabetical)</dt>
+<dd>
+              <p>B. Bünz, <a href="https://people.eecs.berkeley.edu/~alexch">A. Chiesa</a>, <a href="https://people.eecs.berkeley.edu/~pratyushmishra">P. Mishra</a> and <a href="https://people.eecs.berkeley.edu/~spooner/">N. Spooner</a></p>
+            </dd>
+<dt>
+<a href="https://eprint.iacr.org/2020/499">Paper</a> (To appear at TCC 2020)
+</dt>
+<dt>
+<a href="https://www.youtube.com/watch?v=UNwlBq1FQ3E">Talk by Nick at BU</a>
+</dt>
+<dt>
+<a href="https://crypto.stanford.edu/~buenz/presentations/nesta.pptx">Slides</a>
+</dt>
+<dt>TLDR</dt>
+<dd>
+We present a new cryptographic tool called an accumulation scheme for proof systems (unrelated to set accumulators). An accumulation scheme for a predicate (such as proof verification) enables the accumulation of multiple invocations of the predicate and old accumulators into a new accumulator. Checking that the accumulation was done correctly is ideally much cheaper than deciding the predicate itself. In the end a decider can determine whether the final accumulator is valid
+and if so this implies that all accumulated predicate checks were valid. Together this enables delaying and combining expensive checks.
+This is particularly useful as we show that accumualtion schemes can be used to build very efficient recursive proofs. This approach was proposed by Bowe, Grigg and Hopwood in recent work called [Halo](eprint.iacr.org/2019/1021). We formalize and prove correctness of this approach. We also show that a variant of the accumulation scheme from Halo and an accumulation scheme based on bilinear maps satisfy our definitions and are secure. The resulting recursive proof constructions have
+significant new efficiency and security features.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+  <div class="card">
+<div class="card-header" role="tab" id="darksHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#darks" aria-expanded="false" aria-controls="collapseOne">
+  Transparent SNARKs from DARK Compilers
+  </a>
+</h5>
+</div>
+<div id="darks" class="collapse" role="tabpanel" aria-labelledby="darksHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors (alphabetical)</dt>
+<dd>
+              <p>B. Bünz, <a href="https://sites.google.com/site/benafisch/">B. Fisch</a> and <a href="https://asz.ink">A. Szepieniec</a></p>
+            </dd>
+<dt>
+<a href="https://eprint.iacr.org/2019/1229">Paper</a> (Published at Eurocrypt 2020)
+</dt>
+<dt>
+<a href="https://www.youtube.com/watch?v=m3Cc0kuzhfg">Talk at Simons Institute</a>
+</dt>
+<dt>
+<a href="https://crypto.stanford.edu/~buenz/presentations/darks.pptx">Slides</a>
+</dt>
+<dt>TLDR</dt>
+<dd>
+We present a new polynomial commitment scheme from groups of unknown order with logarithmic proof size and logarithmic verifier time. Plugged into proof systems like Sonic, Plonk or Marlin this leads to SuperSonic a SNARK with 10KB proofs and <b>without</b> trusted setup! This is the shortest practical SNARK without trusted setup today. We also provide an abstraction for proof systems like Sonic et al. called polynomial IOPs. We show that using a polynomial commitment scheme (such as DARKs) they can be compiled to SNARKs. Moreover all of the cryptographic assumptions and trusted setup assumptions (or lack thereof) are in the polynomial commitment scheme.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+  <div class="card">
+<div class="card-header" role="tab" id="flyclientHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#flyclient" aria-expanded="false" aria-controls="collapseOne">
+ Flyclient: Super-Light Clients for Cryptocurrencies
+  </a>
+</h5>
+</div>
+<div id="flyclient" class="collapse" role="tabpanel" aria-labelledby="flyclientHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p>B. Bünz, <a href="https://www.khoury.northeastern.edu/people/lucianna-kiffer/">L. Kiffer</a> , <a href="https://loiluu.com/">L. Luu</a> and <a href="http://mahdiz.com/">M. Zamani</a></p>
+            </dd>
+<dt>
+<a href="https://eprint.iacr.org/2019/226">Paper</a> (Published at IEEE S&amp;P (Oakland) 2020)
+</dt>
+<dt>
+<a href="https://www.youtube.com/watch?v=vuzYwutBqjY">Talk at Zcon</a>
+</dt>
+<dt>
+<a href="https://crypto.stanford.edu/~buenz/presentations/flyclient.pptx">Slides</a>
+</dt>
+<dt>TLDR</dt>
+<dd>
+We present Flyclient which is a protocol that lets a super-light client determine which is the correct (longest) proof of work chain. The client only needs to download a logarithmic number of block headers (say 200 instead of 1 million). The protocol is a non-interactive proof of proof of work (NiPoPoW) that shows that a chain has at least x amount of work put into it. It uses a random sampling of block headers to ensure that an adversary with limited mining power could not have produced this chain.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+ <div class="card">
+<div class="card-header" role="tab" id="accumulatorsHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#accumulators" aria-expanded="false" aria-controls="collapseOne">
+  Batching Techniques for Accumulators with Applications to IOPs and Stateless Blockchains
+  </a>
+</h5>
+</div>
+<div id="accumulators" class="collapse" role="tabpanel" aria-labelledby="accumulatorsHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors (alphabetical)</dt>
+<dd>
+              <p><a href="https://crypto.stanford.edu/~dabo">D. Boneh</a>,  B. Bünz and <a href="https://sites.google.com/site/benafisch/">B. Fisch</a></p>
+            </dd>
+<dt>
+<a href="https://eprint.iacr.org/2018/1188">Paper</a> (Published at Crypto 2019)
+</dt>
+<dt>
+<a href="https://youtu.be/IMzLa9B1_3E?t=3515">Talk at Scaling Bitcoin 18</a>
+</dt>
+<dt>
+<a href="https://crypto.stanford.edu/~buenz/presentations/accumulators.pptx">Slides</a>
+<a href="https://crypto.stanford.edu/~buenz/presentations/accumulatorcryptoday.pptx">Technical Slides</a>
+</dt>
+<dt>TLDR</dt>
+<dd>
+Accumulators are short commitment to a set that support efficient inclusion and exclusion proofs. We present several new batching techniques for accumulators and positional vector commitments in group of unknown order. Our techniques can be used in a stateless blockchain design where all users and miners only require a constant amount of storage. We also present a new vector commitment which can significantly reduce the proof size of IOP instantiations, such as STARKs.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+
+<div class="card">
+<div class="card-header" role="tab" id="zetherHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#zether" aria-expanded="false" aria-controls="collapseOne">
+  Zether: Towards Privacy in a Smart Contract World
+  </a>
+</h5>
+</div>
+<div id="zether" class="collapse" role="tabpanel" aria-labelledby="zetherHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p>B. Bünz, <a href="https://shashank-agrawal.com/">S. Agrawal</a>, <a href="http://mahdiz.com/">M. Zamani</a> and <a href="https://crypto.stanford.edu/~dabo">D. Boneh</a></p>
+            </dd>
+<dt>
+<a href="https://crypto.stanford.edu/~buenz/papers/zether.pdf">Paper</a> (Published at FC 2020)
+</dt>
+<dt>
+<a href="https://crypto.stanford.edu/~buenz/presentations/zether.pptx">Slides</a>
+</dt>
+<dt>TLDR</dt>
+<dd>
+We propose Zether, a private payment mechanism that is compatible with Ethereum and other account-based payment systems. Zether can provide both confidentiality (by hiding payment amounts) and anonymity (by hiding the identities of senders and recipients).  Zether is designed to be inter-operable with arbitrary smart contracts to support applications such as sealed-bid auctions, private payment channels, stake voting, and confidential proof-of-stake. Zether uses an extension to Bulletproofs called Sigma-Bullets which combines Bulletproofs with Sigma protocols.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header" role="tab" id="vdfsurveyHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#vdfsurvey" aria-expanded="false" aria-controls="collapseOne">
+  A Survey of 2 Verifiable Delay Functions
+  </a>
+</h5>
+</div>
+<div id="vdfsurvey" class="collapse" role="tabpanel" aria-labelledby="vdfsurveyHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors (alphabetical)</dt>
+<dd>
+              <p><a href="https://crypto.stanford.edu/~dabo">D. Boneh</a>,  B. Bünz and <a href="https://sites.google.com/site/benafisch/">B. Fisch</a></p>
+            </dd>
+<dt>
+<a href="https://crypto.stanford.edu/~dabo/pubs/papers/VDFsurvey.pdf">Paper</a>
+</dt>
+<dt>TLDR</dt>
+<dd>
+We briefly survey two beautiful VDF constructions by Wesolowski and Pietrzak. We give a new computational security proof for one of them and compare their security assumptions.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header" role="tab" id="vdfHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#vdf" aria-expanded="false" aria-controls="collapseOne">
+  Verifiable Delay Functions
+  </a>
+</h5>
+</div>
+<div id="vdf" class="collapse" role="tabpanel" aria-labelledby="vdfHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors (alphabetical)</dt>
+<dd>
+              <p><a href="https://crypto.stanford.edu/~dabo">D. Boneh</a>, <a href="http://www.jbonneau.com/">J.Bonneau</a>, B. Bünz and <a href="https://sites.google.com/site/benafisch/">B. Fisch</a></p>
+            </dd>
+<dt>
+<a href="https://eprint.iacr.org/2018/601">Paper</a> (Published at CRYPTO 2018)
+</dt>
+<dt>
+<a href="https://www.youtube.com/watch?v=_-feyaZZjEw">Talk by Ben Fisch at Crypto 2018</a>
+</dt>
+<dt>TLDR</dt>
+<dd>
+We introduce verifiable delay functions (VDFs) which have 3 key properties: They are a functions so for every input there is a unique output. Evaluation incurs a delay, i.e. it takes a significant amount of time even on a highly parallel machine. VDFs are verifiable such that given a proof a verifier can efficiently check that the VDF was evaluated correctly. VDFs have many applications from randomness beacons to proofs of replication and cointossing.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header" role="tab" id="bpHeading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#bulletproofs" aria-expanded="false" aria-controls="collapseOne">
+Bulletproofs: Short Proofs for
+Confidential Transactions and More
+  </a>
+</h5>
+</div>
+<div id="bulletproofs" class="collapse" role="tabpanel" aria-labelledby="bpHeading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p>B. Bünz, <a href="http://www0.cs.ucl.ac.uk/staff/J.Bootle/">J. Bootle</a>, <a href="https://crypto.stanford.edu/~dabo">D. Boneh</a>, <a href="https://www.wpsoftware.net/andrew/">Andrew Poelstra</a>, <a href="https://blockstream.com/team/pieter-wuille/">Pieter Wuille</a> and <a href="https://blockstream.com/team/greg-maxwell/">Greg Maxwell</a></p>
+            </dd>
+<dt>
+<a href="https://eprint.iacr.org/2017/1066">Paper</a> (Published at IEEE S&amp;P (Oakland) 2018)
+</dt>
+<dt>
+<a href="https://www.youtube.com/watch?v=Adrh6BCc_Ao">Talk at IEEE S&amp;P</a>
+</dt>
+<dt>
+<a href="https://crypto.stanford.edu/~buenz/presentations/bulletproofs.pptx">Slides</a>
+</dt>
+<dt>
+Implementations
+</dt>
+<dd>
+              <p><a href="https://github.com/bbuenz/BulletProofLib">Java reference implementation</a></p>
+
+              <p><a href="https://github.com/apoelstra/secp256k1-mw/tree/bulletproofs">libsecp256k1 implementation by Andrew Poelstra</a></p>
+            </dd>
+<dt>TLDR</dt>
+
+<dd>
+Confidential transactions are Bitcoin transactions which are publicly verifiable but do not reveal the amounts that are transferred. They rely on cryptographic commitments and so called zero-knowledge proofs of knowledge. We present a new kind of zero-knowledge proof which is much more efficient and can be used to drastically reduce the size of confidential transactions. On a more technical note bulletproofs are non-interactive zero knowledge proofs without trusted setup and
+with only logarithmic proof size. Proving and verification cost are linear with low constant overhead.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header" role="tab" id="provisionsheading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#provisions" aria-expanded="false" aria-controls="collapseOne">
+Provisions: Privacy-preserving proofs of solvency for Bitcoin exchanges
+  </a>
+</h5>
+</div>
+<div id="provisions" class="collapse" role="tabpanel" aria-labelledby="provisionsheading" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p><a href="http://cs.boisestate.edu/~gdagher/">G. Dagher</a>, B. Bünz, <a href="http://www.jbonneau.com/">J.Bonneau</a>, <a href="https://users.encs.concordia.ca/~clark/">J.Clark</a> and <a href="https://crypto.stanford.edu/~dabo">D. Boneh</a></p>
+            </dd>
+<dt>
+<a href="https://eprint.iacr.org/2015/1008">Paper</a> (Published at CCS 2015)
+</dt>
+<dt>
+<a href="https://youtu.be/-zku26GNCa4?t=28m52s">Talk at Next Context Conference</a>
+</dt>
+<dt>
+Implementations
+</dt>
+<dd>
+              <p><a href="https://github.com/bbuenz/provisions">Java reference implementation</a></p>
+            </dd>
+<dt>
+<a href="https://freedom-to-tinker.com/2015/10/26/provisions-how-bitcoin-exchanges-can-prove-their-solvency/">Blog by Joseph Bonneau</a>
+</dt>
+<dt>TLDR</dt>
+
+<dd>
+How can a Bitcoin exchange proof that they have enough funds to satisfy all their customers demands without revealing the customers balances, the bitcoin addresses they control or even the total amount of bitcoin they have.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header" role="tab" id="delayheading">
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#delay" aria-expanded="false" aria-controls="collapseOne">
+  Proofs-of-delay and randomness beacons in Ethereum
+  </a>
+</h5>
+</div>
+<div id="delay" class="collapse" role="tabpanel" aria-labelledby="delayheading" data-parent="#cryptoacordion">
+      <div class="card-body">
+
+Presented at <a href="http://prosecco.gforge.inria.fr/ieee-blockchain2016">IEEE S&amp;B Workshop</a>
+<dl>
+<dt>Authors</dt>
+<dd>
+              <p>B. Bünz, <a href="http://www.stevengoldfeder.com">S. Goldfeder</a>, <a href="http://www.jbonneau.com">J. Bonneau</a></p>
+            </dd>
+<dt>
+<a href="http://www.jbonneau.com/doc/BGB17-IEEESB-proof_of_delay_ethereum.pdf">Paper</a>
+</dt>
+<dt>
+<a href="https://www.youtube.com/watch?v=kK4qN2K44Ms">Talk at CESC</a>
+</dt>
+<dt>
+<a href="https://drive.google.com/file/d/0B5PcPC6ZC_Gyb3V6NnRMZ2VZMFU/view">Slides</a>
+</dt>
+<dt>
+<a href="https://github.com/bbuenz/VerifiableBeacon">Code</a>
+</dt>
+
+<dt>TLDR</dt>
+
+<dd>
+We show how one can generate an unpredictable randomness beacon that is publicly verifiable using a blockchain. The beacon can be used to verify the correct execution of randomized algorithms such as lotteries. The novel property of the beacon is that it is publicly verifiable in that a verifier is convinced that the beacon was unpredictable even if she did not partake in the generation of the beacon and without any trust assumptions. We also show how we can enable interactive verification using an efficient smart contract.
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
+
+  </div>
+  </p>
 
 
 </section>
