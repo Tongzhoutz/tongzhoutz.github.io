@@ -61,9 +61,9 @@
           <ul class="nav navbar-nav">
             <li class><a href="#">Home</a></li>
 	    <li><a href="#about">About</a></li>
-	    <li><a href="#about">Papers</a></li>
-	    	    <li><a href="#teaching">Teaching</a></li>
-	    	    <li><a href="#short notes">Notes</a></li>
+	    <li><a href="#Papers">Papers</a></li>
+	    	    <li><a href="#Teaching">Teaching</a></li>
+	    	    <li><a href="#short_notes">Notes</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -136,41 +136,24 @@
           </ul>
 
 <p>
-
   <div class="card">
 <div class="card-header" role="tab" id="ippHeading">
 <h5 class="mb-0">
   <a class="collapsed" data-toggle="collapse" href="#ipp" aria-expanded="false" aria-controls="collapseOne">
-  Proofs for Inner Pairing Products and Applications
+    Dimension-Free Density-based Clustering methods in High-dimensional Data with random knots
   </a>
 </h5>
 </div>
 <div id="ipp" class="collapse" role="tabpanel" aria-labelledby="ippHeading" data-parent="#cryptoacordion">
       <div class="card-body">
 <dl>
-<dt>Authors (alphabetical)</dt>
+<dt>Authors</dt>
 <dd>
-              <p>B. Bünz, M. Maller, <a href="http://people.eecs.berkeley.edu/~pratyushmishra/">P. Mishra</a>, <a href="https://www.cs.cornell.edu/~tyagi/">Nirvan Tyagi</a> and Psi Vesely</p>
+              <p>Tong Zhou</p>
             </dd>
-<dt>
-<a href="https://eprint.iacr.org/2019/1177">Paper</a> (Preprint) 
-</dt>
-<dt>
-<a href="https://www.youtube.com/watch?v=slm5sL3IgGo">Talk at Simons Institute</a>
-</dt>
-<dt>
-<a href="https://crypto.stanford.edu/~buenz/presentations/InnerPairingProducts.pptx">Slides</a>
-</dt>
-<dt>
-<a href="https://github.com/arkworks-rs/ripp">Implementation</a>
-</dt>
 <dt>TLDR</dt>
 <dd>
-We present several proof systems (innner pairing products) for proving algebraic relations over pairing equations. These proof systems efficiently allow a prover to show that committed group elements satisfy certain bilinear (pairing) equalities. We present them as a generalization of the inner-product argument of Bulletproofs. We specialize and optimize them for several highly relevant applications. 
-Firstly, we built the first succinct polynomial commitment scheme where the evaluation prover only has <b>additive</b> overhead over evaluating the polynomial. The commitment scheme has both a transparent variant with square root verifier time and one with universal updatable setup with logarithmic verifier time. 
-As described in the <a href="#darks">DARK paper</a> polynomial commitments can be used to build general purpose SNARKS.
-Additionally, we show that the inner pairing product can be used to efficiently outsource the verification of pairing equations such as BLS signatures. A prover can give a short proof that n BLS signatures are correct and the verifier can check this proof using 2n group exponentiations but only <b>one</b> expensive pairing. This protocol can be used in a blockchain where a block contains many signatures and fast verification of the block is vital. 
-Finally, we use a variant of the inner pairing product to aggregate n pairing based SNARKs such as <a href="https://eprint.iacr.org/2016/260.pdf">Groth 16</a> into a logarithmic sized proof. Verifiying this batched proof only takes O(log(n)) time. Aggregating SNARKs could only previously be achieved through expensive recursive proof techniques and NP reductions. The Inner Pairing Product on the other hand is fully algebraic and does not rely on expensive NP reductions.
+We propose a method to overcome the curse of dimensionality and to apply density-based clustering to high-dimensional data, when protoclusters (knots) are generated from data.  We first find a large set of knots using a density-based criterion that is estimable even in high-dimensions. These similarity measures behave like the bones connecting knows. Finally, we merge knots according to a linkage criterion to create the final clusters.
 </dd>
 
 </dl>
@@ -559,7 +542,7 @@ We show how one can generate an unpredictable randomness beacon that is publicly
 
 
 	  </section>
-	  <section id="short notes">
+	  <section id="short_notes">
 	     <h3>Short Notes</h3>
            <p><h5>These notes have been built up based on my past coursework and research, but may contain factual errors. Comments or suggestions are welcome. <h5></p>
 
