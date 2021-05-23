@@ -157,11 +157,6 @@ We extend a new quantile-based panel data framework to study the nature of incom
         </ul>
         <h4>Research in Progress</h4>
 
-        <ul>
-            <li><p>
-              <strong>            </strong><br>
-              </p>
-          </ul>
           <ul>
 <p>
   <div class="card">
@@ -195,7 +190,7 @@ We propose a method to overcome the curse of dimensionality and to apply density
 <div class="card-header" role="tab" id="darksHeading">
 <h5 class="mb-0">
   <a class="collapsed" data-toggle="collapse" href="#darks" aria-expanded="false" aria-controls="collapseOne">
-  Transparent SNARKs from DARK Compilers
+  The evolution of partially identified set of nonparametric identification with many binary instruments
   </a>
 </h5>
 </div>
@@ -203,21 +198,10 @@ We propose a method to overcome the curse of dimensionality and to apply density
       <div class="card-body">
 <dl>
 <dt>Authors (alphabetical)</dt>
-<dd>
-              <p>B. Bünz, <a href="https://sites.google.com/site/benafisch/">B. Fisch</a> and <a href="https://asz.ink">A. Szepieniec</a></p>
-            </dd>
-<dt>
-<a href="https://eprint.iacr.org/2019/1229">Paper</a> (Published at Eurocrypt 2020)
-</dt>
-<dt>
-<a href="https://www.youtube.com/watch?v=m3Cc0kuzhfg">Talk at Simons Institute</a>
-</dt>
-<dt>
-<a href="https://crypto.stanford.edu/~buenz/presentations/darks.pptx">Slides</a>
-</dt>
+<dd> Tong Zhou, Yingyao Hu </dd>
 <dt>TLDR</dt>
 <dd>
-We present a new polynomial commitment scheme from groups of unknown order with logarithmic proof size and logarithmic verifier time. Plugged into proof systems like Sonic, Plonk or Marlin this leads to SuperSonic a SNARK with 10KB proofs and <b>without</b> trusted setup! This is the shortest practical SNARK without trusted setup today. We also provide an abstraction for proof systems like Sonic et al. called polynomial IOPs. We show that using a polynomial commitment scheme (such as DARKs) they can be compiled to SNARKs. Moreover all of the cryptographic assumptions and trusted setup assumptions (or lack thereof) are in the polynomial commitment scheme.
+ We show that the partially identified set of a nonparametric identification problem is not shrinking as the number of available binary instruments keeps increasing. This counter-intuitive result suggests that more binary instruments cannot help reveal any more information on the function(s) of our interests, unless full identification is achieved. For applied practitioners, it suggests that there is no free lunch to use binary instruments.
 </dd>
 
 </dl>
