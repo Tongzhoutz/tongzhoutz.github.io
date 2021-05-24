@@ -268,8 +268,6 @@ We propose an estimation strategy for linear quantile regression models with uno
          <ul>
            <li><p>   <a href="short_notes/EM.pdf"><strong>EM Algorithm</strong></a></p></li>
 
-           <li><p><a href="short_notes/Empirical_Bayes.pdf"><strong>Empirical Bayes</strong></a></p></li>
-
            <li><p><a href="short_notes/M_estimator.pdf"><strong>M-estimation </strong></a></p></li>
 
            <li><p><a href="short_notes/minimax.pdf"><strong>Minimax Theory</strong></a></p></li>
