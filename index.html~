@@ -415,60 +415,33 @@ Accumulators are short commitment to a set that support efficient inclusion and 
 				<td class="ms-classic4-even" style="width: 25px">A</td>
 			</tr>
 			<tr>
-				<td class="ms-classic4-even" style="width: 100px">2013 Fall</td>
 				<td class="ms-classic4-even" style="width: 358px">
-				<a href="http://people.csail.mit.edu/moitra/996.html">
-				Algorithmic Aspects of Machine Learning</a></td>
-				<td class="auto-style1" style="width: 138px">Ankur Moitra</td>
-				<td class="ms-classic4-even" style="width: 140px">MIT: 18.S996</td>
-				<td class="ms-classic4-even" style="width: 25px">Listener</td>
-				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
-			</tr>
-			<tr>
-				<td class="ms-classic4-even" style="width: 100px">2013 Fall</td>
-				<td class="ms-classic4-even" style="width: 358px">
-				<a href="https://stellar.mit.edu/S/course/18/fa13/18.725/">
-				Algebraic Geometry I</a></td>
-				<td class="auto-style1" style="width: 138px">Francois Charles</td>
-				<td class="ms-classic4-even" style="width: 140px">MIT: 18.725</td>
+				Statistical Theory II</td>
 				<td class="ms-classic4-even" style="width: 25px">A</td>
-				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
 			</tr>
 			<tr>
-				<td class="ms-classic4-even" style="width: 100px">2013 Spring</td>
 				<td class="ms-classic4-even" style="width: 358px">
-				<a href="http://www.mit.edu/~18.338/index.html">Eigenvalues of Random Matrices</a></td>
-				<td class="auto-style1" style="width: 138px">Alan Edelman</td>
-				<td class="ms-classic4-even" style="width: 140px">MIT: 18.338</td>
-				<td class="ms-classic4-even" style="width: 25px">Listener</td>
-				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
-			</tr>
-			<tr>
-				<td class="ms-classic4-even" style="width: 100px">2012 Fall</td>
-				<td class="ms-classic4-even" style="width: 358px">
-				<a href="http://web.mit.edu/18.705/www/syl12f.html">Commutative 
-				Algebra</a> (<a href="private/notes/commutative-algebra-psets.pdf">psets</a>,
-				<a href="private/books/Algebra/Commutative%20Algebra%20-%20Kleiman.pdf">book</a>)</td>
-				<td class="auto-style1" style="width: 138px">Steven Kleiman</td>
-				<td class="ms-classic4-even" style="width: 140px">MIT: 18.705</td>
+				 Econometrics  </td>
 				<td class="ms-classic4-even" style="width: 25px">A+</td>
-				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
 			</tr>
 			<tr>
-				<td class="ms-classic4-even" style="width: 100px">2012 Fall</td>
 				<td class="ms-classic4-even" style="width: 358px">
-				<a href="https://stellar.mit.edu/S/course/6/fa12/6.845/">Quantum 
-				Complexity Theory</a></td>
-				<td class="auto-style1" style="width: 138px">Scott Aaronson</td>
-				<td class="ms-classic4-even" style="width: 140px">MIT: 6.845</td>
+				Real Analysis I</td>
+				<td class="ms-classic4-even" style="width: 25px">A</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 358px">
+				Real Analysis II</td>
 				<td class="ms-classic4-even" style="width: 25px">Listener</td>
-				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
 			</tr>
 			<tr>
-				<td class="ms-classic4-even" style="width: 100px">2012 Fall</td>
 				<td class="ms-classic4-even" style="width: 358px">
-				<a href="https://stellar.mit.edu/S/course/6/fa12/6.S898/index.html">
-				The Evolution of a Proof</a></td>
+				Functional Analysis</td>
+				<td class="ms-classic4-even" style="width: 25px">Listener</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 358px">
+				</td>
 				<td class="auto-style1" style="width: 138px">Shafi Goldwasser</td>
 				<td class="ms-classic4-even" style="width: 140px">MIT: 6.S898</td>
 				<td class="ms-classic4-even" style="width: 25px">Listener</td>
