@@ -148,11 +148,34 @@ We extend a new quantile-based panel data framework to study the nature of incom
 
 </li>
             </p>
-
+  <div class="card">
+<div class="card-header" role="tab" id="nonlinear">
+  <li>
+<h5 class="mb-0">
+  <a class="collapsed" data-toggle="collapse" href="#SFA" aria-expanded="false" aria-controls="collapseOne">
+ 
             <li><p>
-              <strong>Measurement Errors in Stochastic Frontier Models </strong><br>
-              Tong Zhou.<br>
-              Master's thesis<br>
+              <strong>Measurement Errors in Stochastic Frontier Models without using auxiliary data </strong><br>
+  </a>
+</h5>
+</li>
+</div>
+<div id="SFA" class="collapse" role="tabpanel" aria-labelledby="sfa" data-parent="#cryptoacordion">
+      <div class="card-body">
+<dl>
+  <dt> Master Thesis </dt>
+<dd>
+              <p>Tong Zhou</p>
+            </dd>
+<dt>TLDR</dt>
+<dd>
+We propose an estimation strategy for correcting measurement errors in linear stochastic frontier models. A stochastic frontier model is featured with a composite error, posing a challenge for handling measurement errors in the panel data setting. The proposed estimation strategy exploits higher moments of existing regressors without resorting to instruments outside the model. We also establish its asymptotic normality. Our simulation result shows the proposed estimation strategy works well. 
+</dd>
+
+</dl>
+</div>
+</div>
+</div>
               </p></li>
         </ul>
         <h4>Research in Progress</h4>
