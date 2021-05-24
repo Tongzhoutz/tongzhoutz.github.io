@@ -65,6 +65,7 @@
 	    	    <li><a href="#Teaching">Teaching</a></li>
 	    	    <li><a href="#short_notes">Notes</a></li>
 	    	    <li><a href="#softwares">Softwares</a></li>
+	    	    <li><a href="#courses">Courses</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -386,6 +387,609 @@ Accumulators are short commitment to a set that support efficient inclusion and 
 
 
            </section>
+
+           <section id = "courses">
+             <h3>Courses Studies</h3>
+<div id="center">
+
+	<div class="boxed">
+		<h1 class="heading">&nbsp;</h1>
+		<p><a href="courses.pdf">
+		<img src="courses.png" width="1000" class="auto-style2" /></a></p>
+	</div>
+		<div class="boxed">
+		<h1 class="heading">Course Work @ Graduate School</h1>
+		<p><strong>Disclaimer</strong>: most of the links below, including those 
+		referring to books or notes, are displayed for personal reference only. 
+		They are password-protected due to copyright issues.</p>
+		<table class="style4">
+			<!-- fpstyle: 7,011111000 -->
+			<tr>
+				<td class="ms-classic4-top" style="width: 100px">Term</td>
+				<td class="ms-classic4-top" style="width: 358px">Course Name</td>
+				<td class="ms-classic4-top" style="width: 138px">Lecturer</td>
+				<td class="ms-classic4-top" style="width: 140px">ID</td>
+				<td class="ms-classic4-top" style="width: 25px">Score</td>
+				<td class="ms-classic4-top" style="width: 94px">Remark</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2014 Spring</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://people.csail.mit.edu/ronitt/COURSE/S14/index.html">Randomness and Computation</a></td>
+				<td class="auto-style1" style="width: 138px">Ronitt Rubinfeld</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.842</td>
+				<td class="ms-classic4-even" style="width: 25px">A</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2013 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://stellar.mit.edu/S/course/9/fa13/9.16/">Cellular 
+				Neurophysiology</a></td>
+				<td class="auto-style1" style="width: 138px">Weifeng Xu et al.</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 9.16</td>
+				<td class="ms-classic4-even" style="width: 25px">Listener</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2013 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://people.csail.mit.edu/moitra/996.html">
+				Algorithmic Aspects of Machine Learning</a></td>
+				<td class="auto-style1" style="width: 138px">Ankur Moitra</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 18.S996</td>
+				<td class="ms-classic4-even" style="width: 25px">Listener</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2013 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="https://stellar.mit.edu/S/course/18/fa13/18.725/">
+				Algebraic Geometry I</a></td>
+				<td class="auto-style1" style="width: 138px">Francois Charles</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 18.725</td>
+				<td class="ms-classic4-even" style="width: 25px">A</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2013 Spring</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://www.mit.edu/~18.338/index.html">Eigenvalues of Random Matrices</a></td>
+				<td class="auto-style1" style="width: 138px">Alan Edelman</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 18.338</td>
+				<td class="ms-classic4-even" style="width: 25px">Listener</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2012 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://web.mit.edu/18.705/www/syl12f.html">Commutative 
+				Algebra</a> (<a href="private/notes/commutative-algebra-psets.pdf">psets</a>,
+				<a href="private/books/Algebra/Commutative%20Algebra%20-%20Kleiman.pdf">book</a>)</td>
+				<td class="auto-style1" style="width: 138px">Steven Kleiman</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 18.705</td>
+				<td class="ms-classic4-even" style="width: 25px">A+</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2012 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="https://stellar.mit.edu/S/course/6/fa12/6.845/">Quantum 
+				Complexity Theory</a></td>
+				<td class="auto-style1" style="width: 138px">Scott Aaronson</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.845</td>
+				<td class="ms-classic4-even" style="width: 25px">Listener</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2012 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="https://stellar.mit.edu/S/course/6/fa12/6.S898/index.html">
+				The Evolution of a Proof</a></td>
+				<td class="auto-style1" style="width: 138px">Shafi Goldwasser</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.S898</td>
+				<td class="ms-classic4-even" style="width: 25px">Listener</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2012 Spring</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://www-math.mit.edu/~goemans/18438.html">Advanced 
+				Combinatorial Optimization</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Michel Goemans</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 18.438</td>
+				<td class="ms-classic4-even" style="width: 25px">A</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2012 Spring</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://people.csail.mit.edu/madhu/ST12/">Algebra and 
+				Computation</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Madhu Sudan</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.S897</td>
+				<td class="ms-classic4-even" style="width: 25px">A</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2012 Spring</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="https://stellar.mit.edu/S/course/6/sp12/6.850/">
+				Geometric Computation</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Piotr Indyk</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.850</td>
+				<td class="ms-classic4-even" style="width: 25px">Listener</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2012 Spring</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://courses.csail.mit.edu/6.851/spring12/">Advanced 
+				Data Structures</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Erik Demaine</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.851</td>
+				<td class="ms-classic4-even" style="width: 25px">Listener</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2011 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://theory.csail.mit.edu/classes/6.854/">Advanced 
+				Algorithms</a></td>
+				<td class="ms-classic4-even" style="width: 138px">David Karger</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 18.415 / 
+				6.854</td>
+				<td class="ms-classic4-even" style="width: 25px">TA</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2011 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="https://stellar.mit.edu/S/course/18/fa11/18.409/index.html">An Algorithmist's Toolkit</a> 
+				(<a href="private/scribes/algorithmists-toolkit.pdf">scribes</a>)</td>
+				<td class="ms-classic4-even" style="width: 138px">Jon Kelner</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 18.409</td>
+				<td class="ms-classic4-even" style="width: 25px">A</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2011 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://courses.csail.mit.edu/6.889/fall11/">Algorithms 
+				for Planer Graphs and Beyond</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Erik Demaine 
+				et al.</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.889</td>
+				<td class="ms-classic4-even" style="width: 25px">Listener</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2011 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://stellar.mit.edu/S/course/6/fa11/6.820/index.html">
+				Foundations of Program Analysis</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Armando 
+				Solar-Lezama</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.820</td>
+				<td class="ms-classic4-even" style="width: 25px">A+</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2011 Spring</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://people.csail.mit.edu/costis/6896sp11/">
+				Probability and Computation</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Costis Daskalakis</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.896</td>
+				<td class="ms-classic4-even" style="width: 25px">A+</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px; ">2011 Spring</td>
+				<td class="ms-classic4-even" style="width: 358px; ">
+				<a href="http://courses.csail.mit.edu/6.856/">Randomized Algorithms</a> 
+				(<a href="private/scribes/randomized-algorithms">scribes</a>,
+				<a href="private/books/Theory/Randomized%20Algorithms.pdf">book</a>)</td>
+				<td class="ms-classic4-even" style="width: 138px; ">David Karger</td>
+				<td class="ms-classic4-even" style="width: 140px; ">MIT: 
+				18.416/6.856</td>
+				<td class="ms-classic4-even" style="width: 25px; ">A+</td>
+				<td class="ms-classic4-even" style="width: 94px; "></td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2011 Spring</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="https://stellar.mit.edu/S/course/18/sp11/18.405J/index.html">Advanced Complexity Theory</a> 
+				(<a href="private/books/Theory/Complexity%20-%20Arora%20and%20Borak.pdf">book-AB</a>,
+				<a href="private/books/Theory/Complexity%20-%20Goldreich.pdf">book-G</a>)</td>
+				<td class="ms-classic4-even" style="width: 138px">Jon Kelner</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 
+				18.405/6.841</td>
+				<td class="ms-classic4-even" style="width: 25px">A+</td>
+				<td class="ms-classic4-even" style="width: 94px">
+				<a href="private/notes/advanced-complexity.pdf">My notes</a></td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2010 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="https://stellar.mit.edu/S/course/6/fa10/6.885/">Robust 
+				Mechanism Design</a> (<a href="private/scribes/robust-mechanism-design.pdf">scribes</a>)</td>
+				<td class="ms-classic4-even" style="width: 138px">Silvio Micali</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.885</td>
+				<td class="ms-classic4-even" style="width: 25px">A+</td>
+				<td class="ms-classic4-even" style="width: 94px">
+				&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2010 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://courses.csail.mit.edu/6.867/">Machine Learning</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Tom Jaakkola 
+				+ Michael Collins</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.867</td>
+				<td class="ms-classic4-even" style="width: 25px">A+</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2010 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="https://stellar.mit.edu/S/course/18/fa10/18.404/">
+				Theory of Computation</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Michael Sipser</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 
+				18.404/6.840</td>
+				<td class="ms-classic4-even" style="width: 25px">A+</td>
+				<td class="ms-classic4-even" style="width: 94px">&nbsp;</td>
+			</tr>
+			</table>
+	</div>	<div class="boxed">
+		<h1 class="heading">Course Work @ Home School</h1>
+		<p>Courses are studied at home by self-learning. My study group for some 
+		courses are <a href="study/index.htm">here</a>.</p>
+		<table class="style4">
+			<!-- fpstyle: 7,011111000 -->
+			<tr>
+				<td class="ms-classic4-top" style="width: 100px">Term</td>
+				<td class="ms-classic4-top" style="width: 358px">Course Name</td>
+				<td class="ms-classic4-top" style="width: 138px">Lecturer</td>
+				<td class="ms-classic4-top" style="width: 140px">ID</td>
+				<td class="ms-classic4-top" style="width: 149px">Remark</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2013 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://neuroscience.uth.tmc.edu/s1/index.htm">Cellular 
+				and Molecular Neurobiology</a></td>
+				<td class="ms-classic4-even" style="width: 138px">John H. Byrne</td>
+				<td class="ms-classic4-even" style="width: 140px">UTHealth</td>
+				<td class="ms-classic4-even" style="width: 149px">
+				&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2012 Summer</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://www.stanford.edu/class/ee364b/">Convex 
+				Optimization II</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Stephen Boyd</td>
+				<td class="ms-classic4-even" style="width: 140px">Stanford: 
+				EE364b</td>
+				<td class="ms-classic4-even" style="width: 149px">
+				&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2012 Summer</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://www.stanford.edu/class/ee364a/">Convex 
+				Optimization I</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Stephen Boyd</td>
+				<td class="ms-classic4-even" style="width: 140px">Stanford: 
+				EE364a</td>
+				<td class="ms-classic4-even" style="width: 149px">
+				&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2011 Summer</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://www.cs.yale.edu/homes/spielman/561/">Spectral 
+				Graph Theory</a> (<a href="private/scribes/spectral-graph-theory.pdf">scribes</a>)</td>
+				<td class="ms-classic4-even" style="width: 138px">Daniel Spielman</td>
+				<td class="ms-classic4-even" style="width: 140px">Yale: 
+				AM561/CS662</td>
+				<td class="ms-classic4-even" style="width: 149px">
+				&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2011 Summer</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://www.cs.cmu.edu/~odonnell/boolean-analysis/">Analysis of Boolean Functions</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Ryan O'Donnell</td>
+				<td class="ms-classic4-even" style="width: 140px">CMU: 15-859S</td>
+				<td class="ms-classic4-even" style="width: 149px">
+				<a href="private/notes/boolean-analysis.pdf">My notes</a></td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2011 Spring</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://theory.stanford.edu/~tim/f10/f10.html">Algorithmic Game Theory</a> 
+				(<a href="private/books/Theory/Algorithmic%20Game%20Theory.pdf">book</a>)</td>
+				<td class="ms-classic4-even" style="width: 138px">Tim 
+				Roughgarden</td>
+				<td class="ms-classic4-even" style="width: 140px">Stanford: 
+				CS364A</td>
+				<td class="ms-classic4-even" style="width: 149px">
+				&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2011 Spring</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://stellar.mit.edu/S/course/6/fa10/6.896/">
+				Sublinear Algorithms</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Piotr Indyk</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.896</td>
+				<td class="ms-classic4-even" style="width: 149px">
+				<a href="private/notes/sublinear-algorithms.pdf">My notes</a></td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2010 Winter</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://stellar.mit.edu/S/course/6/sp10/6.875J/">
+				Cryptography &amp; Cryptanalysis</a> (<a href="private/scribes/cryptography-cryptanalysis.pdf">scribes</a>)</td>
+				<td class="ms-classic4-even" style="width: 138px">Silvio Micali</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 
+				6.875/18.425</td>
+				<td class="ms-classic4-even" style="width: 149px">
+				<a href="http://zeyuan.wordpress.com/2011/01/02/review-of-a-course-in-cryptography-part-2/">
+				My notes</a></td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2010 Fall</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://people.csail.mit.edu/costis/6896sp10/">Topics in 
+				Algorithmic Game Theory</a> (<a href="private/scribes/game-theory-costis.pdf">scribes</a>)</td>
+				<td class="ms-classic4-even" style="width: 138px">Costis Daskalakis</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.896</td>
+				<td class="ms-classic4-even" style="width: 149px">
+				&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2010 Summer</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://www.tcs.fudan.edu.cn/game10/">Algorithmic Game Theory 
+				Summer School</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Avrim Blum et 
+				al.</td>
+				<td class="ms-classic4-even" style="width: 140px">Fudan University</td>
+				<td class="ms-classic4-even" style="width: 149px">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px; height: 21px;">2010 
+				Spring</td>
+				<td class="ms-classic4-even" style="width: 358px; height: 21px;">
+				<a href="http://stellar.mit.edu/S/course/18/fa09/18.409/">An Algorithmist&#39;s 
+				Toolkit</a></td>
+				<td class="ms-classic4-even" style="width: 138px; height: 21px;">Jonathan Kelner</td>
+				<td class="ms-classic4-even" style="width: 140px; height: 21px;">MIT: 18.409</td>
+				<td class="ms-classic4-even" style="width: 149px; height: 21px;"></td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2010 Spring</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://stellar.mit.edu/S/course/18/fa08/18.415/index.html">Advanced Algorithms</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Michel Goemans</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.854/18.415</td>
+				<td class="ms-classic4-even" style="width: 149px">Missing 20,24,25,26</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2010 Spring</td>
+				<td class="ms-classic4-even" style="width: 358px">
+				<a href="http://stellar.mit.edu/S/course/6/sp08/6.080/materials.html">Great Ideas in Theoretical Computer Science</a></td>
+				<td class="ms-classic4-even" style="width: 138px">Scott Aaronson</td>
+				<td class="ms-classic4-even" style="width: 140px">MIT: 6.080/6.089</td>
+				<td class="ms-classic4-even" style="width: 149px">&nbsp;</td>
+			</tr>
+			</table>
+	</div>
+	<div class="boxed">
+		<h1 class="heading">Course Work @ Tsinghua University</h1>
+		<h3>Remark:</h3>
+		<ul>
+			<li>Overall GPA: 91.7 / 100. Ranked 1<sup>st</sup> / 45.</li>
+			<li>Major GPA: 93.<span lang="zh-cn">3</span> / 100.</li>
+			<li>According to the traditional rule of convertion, 90+/85+/80+ are 
+			marked as A+/A/A- respectively.</li>
+		</ul>
+		<h3>Computer Science Related:</h3>
+		<table class="style4">
+			<!-- fpstyle: 7,011111000 -->
+			<tr>
+				<td class="ms-classic4-top" style="width: 100px">Term</td>
+				<td class="ms-classic4-top" style="width: 500px">Course Name</td>
+				<td class="ms-classic4-top" style="width: 100px">Score</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2009 Spring</td>
+				<td class="ms-classic4-even" style="width: 500px">Advanced Algorithms</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2009 Spring</td>
+				<td class="ms-classic4-even" style="width: 500px">Current Topics 
+				in Computer Science</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2009 Spring</td>
+				<td class="ms-classic4-even" style="width: 500px">The Art and Practice 
+				of Programming</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2008 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">Introduction to 
+				Quantum Information Science</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2008 Spring</td>
+				<td class="ms-classic4-even" style="width: 500px">Data Structures</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2006 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">Fundamentals of 
+				Programming</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+		</table>
+		<p>&nbsp;</p>
+		<h3>Math Related:</h3>
+		<table class="style4">
+			<!-- fpstyle: 7,011111000 -->
+			<tr>
+				<td class="ms-classic4-top" style="width: 100px">Term</td>
+				<td class="ms-classic4-top" style="width: 500px">Course Name</td>
+				<td class="ms-classic4-top" style="width: 100px">Score</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2006 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">Integers and Polynomials</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2006 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">Advanced Calculus(1)</td>
+				<td class="ms-classic4-even" style="width: 100px">A</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2006 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">Advanced Algebra 
+				and Geometry(1)</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2007 Spring</td>
+				<td class="ms-classic4-even" style="width: 500px">Advanced Calculus(2)</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px; height: 22px;">
+				2007 Spring</td>
+				<td class="ms-classic4-even" style="width: 500px; height: 22px;">Advanced Algebra 
+				and Geometry(2)</td>
+				<td class="ms-classic4-even" style="width: 100px; height: 22px;">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2007 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">Advanced Calculus(3)</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px; height: 22px;">
+				2007 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px; height: 22px;">Functions of a 
+				complex Variable and Equations in Mathematical Physics</td>
+				<td class="ms-classic4-even" style="width: 100px; height: 22px;">
+				A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2008 Spring</td>
+				<td class="ms-classic4-even" style="width: 500px">Abstract Algebra</td>
+				<td class="ms-classic4-even" style="width: 100px">A-</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2008 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">Topology</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2008 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">Numerical Analysis</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2008 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">Probability Theory</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2009 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">Differential Geometry</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2009 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">Mathematical Modeling</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+		</table>
+		<p>&nbsp;</p>
+		<h3>Physics Related:</h3>
+		<table class="style4">
+			<!-- fpstyle: 7,011111000 -->
+			<tr>
+				<td class="ms-classic4-top" style="width: 100px">Term</td>
+				<td class="ms-classic4-top" style="width: 500px">Course Name</td>
+				<td class="ms-classic4-top" style="width: 100px">Score</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2006 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">General 
+				Physics(1) - Mechanics and Electromagnetics</td>
+				<td class="ms-classic4-even" style="width: 100px">A-</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2007 Spring</td>
+				<td class="ms-classic4-even" style="width: 500px">Introduction to 
+				Astronomy</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2007 Spring</td>
+				<td class="ms-classic4-even" style="width: 500px">General Physics(2) 
+				- Electromagnetics and Thermotics</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2007 Spring</td>
+				<td class="ms-classic4-even" style="width: 500px">Lab of Physics(1)</td>
+				<td class="ms-classic4-even" style="width: 100px">A</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2007 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">General Physics(3) 
+				- Optics and Quantum Physics</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2007 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">Lab of Physics(2)</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2007 Fall</td>
+				<td class="ms-classic4-even" style="width: 500px">Analytical Mechanics</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2008 Spring</td>
+				<td class="ms-classic4-even" style="width: 500px">Quantum Mechanics(1)</td>
+				<td class="ms-classic4-even" style="width: 100px">A</td>
+			</tr>
+			<tr>
+				<td class="ms-classic4-even" style="width: 100px">2008 Spring</td>
+				<td class="ms-classic4-even" style="width: 500px">Lab of Physics(3)</td>
+				<td class="ms-classic4-even" style="width: 100px">A+</td>
+			</tr>
+			</table>
+	</div>
+<script src="http://t1.extreme-dm.com/f.js" id="eXF-zeyuan-1" async defer></script>
+</div>
+
+
+
+
+
+
 
 	</div>
       </div>
