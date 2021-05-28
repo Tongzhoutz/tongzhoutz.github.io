@@ -304,7 +304,7 @@ We propose an estimation strategy for linear quantile regression models with uno
 
          <section id="softwares">         
            <h3>Softwares</h3>
-           <p> <h5>I am developing a R package for estimating quantile-based models using <strong>stochastic EM algorithm. </strong> If you would like to use it or have any comments on it, feel feel to contact me. <h5>  </p>
+           <p> <h5>I am currently maintaining a R package <a href="https://github.com/Tongzhoutz/semqreg#readme">semqreg </a> for estimating quantile regressions with unobserved covariates using <strong>stochastic EM algorithm. </strong> If you would like to use it or have any comments on it, feel feel to contact me. <h5>  </p>
 
 
            </section>
